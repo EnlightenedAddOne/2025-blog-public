@@ -19,8 +19,9 @@ import { useConfigStore } from '@/app/(home)/stores/config-store'
 import { readFileAsText } from '@/lib/file-utils'
 import { cn } from '@/lib/utils'
 import { saveBlogEdits } from './services/save-blog-edits'
-import { Check } from 'lucide-react'
+import { Check, Search } from 'lucide-react'
 import { CategoryModal } from './components/category-modal'
+import { CategoryTreeSidebar, categoryToAnchorId } from './components/category-tree-sidebar'
 
 type DisplayMode = 'day' | 'week' | 'month' | 'year' | 'category'
 
@@ -39,6 +40,8 @@ export default function BlogPage() {
 	const [selectedSlugs, setSelectedSlugs] = useState<Set<string>>(new Set())
 	const [saving, setSaving] = useState(false)
 	const [displayMode, setDisplayMode] = useState<DisplayMode>('year')
+	const [activeCategory, setActiveCategory] = useState<string | null>(null)
+	const [noteQuery, setNoteQuery] = useState('')
 	const [categoryModalOpen, setCategoryModalOpen] = useState(false)
 	const [categoryList, setCategoryList] = useState<string[]>([])
 	const [newCategory, setNewCategory] = useState('')
@@ -55,8 +58,26 @@ export default function BlogPage() {
 
 	const displayItems = editMode ? editableItems : items
 
+	useEffect(() => {
+		if (displayMode !== 'category') {
+			setActiveCategory(null)
+		}
+	}, [displayMode])
+
 	const { groupedItems, groupKeys, getGroupLabel } = useMemo(() => {
-		const sorted = [...displayItems].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+		const q = noteQuery.trim().toLowerCase()
+		const filtered = q
+			? displayItems.filter(item => {
+					const title = item.title?.toLowerCase() || ''
+					const summary = item.summary?.toLowerCase() || ''
+					const category = item.category?.toLowerCase() || ''
+					const slug = item.slug?.toLowerCase() || ''
+					const tags = (item.tags || []).join(' ').toLowerCase()
+					return title.includes(q) || summary.includes(q) || category.includes(q) || slug.includes(q) || tags.includes(q)
+				})
+			: displayItems
+
+		const sorted = [...filtered].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
 		const grouped = sorted.reduce(
 			(acc, item) => {
@@ -122,7 +143,35 @@ export default function BlogPage() {
 			groupKeys: keys,
 			getGroupLabel: (key: string) => grouped[key]?.label || key
 		}
-	}, [displayItems, displayMode, categoryList])
+	}, [displayItems, displayMode, categoryList, noteQuery])
+
+	const categoryCounts = useMemo(() => {
+		return displayItems.reduce(
+			(acc, item) => {
+				const key = item.category || '未分类'
+				acc[key] = (acc[key] || 0) + 1
+				return acc
+			},
+			{} as Record<string, number>
+		)
+	}, [displayItems])
+
+	const visibleGroupKeys = useMemo(() => {
+		// Always show all categories, don't filter - clicking scrolls to anchor instead
+		return groupKeys
+	}, [displayMode, activeCategory, groupKeys])
+
+	const handleCategorySelect = useCallback((category: string) => {
+		setDisplayMode('category')
+		setActiveCategory(category)
+		// Scroll to the category section
+		setTimeout(() => {
+			const target = document.getElementById(categoryToAnchorId(category))
+			if (target) {
+				target.scrollIntoView({ behavior: 'smooth', block: 'start' })
+			}
+		}, 100)
+	}, [])
 
 	const selectedCount = selectedSlugs.size
 	const buttonText = isAuth ? '保存' : '导入密钥'
@@ -324,144 +373,178 @@ export default function BlogPage() {
 				}}
 			/>
 
-			<div className='flex flex-col items-center justify-center gap-6 px-6 pt-24 max-sm:pt-24'>
-				{items.length > 0 && (
-					<motion.div
-						initial={{ opacity: 0, scale: 0.6 }}
-						animate={{ opacity: 1, scale: 1 }}
-						className='card btn-rounded relative mx-auto flex items-center gap-1 p-1 max-sm:hidden'>
-						{[
-							{ value: 'day', label: '日' },
-							{ value: 'week', label: '周' },
-							{ value: 'month', label: '月' },
-							{ value: 'year', label: '年' },
-							...(enableCategories ? ([{ value: 'category', label: '分类' }] as const) : [])
-						].map(option => (
-							<motion.button
-								key={option.value}
-								whileHover={{ scale: 1.05 }}
-								whileTap={{ scale: 0.95 }}
-								onClick={() => setDisplayMode(option.value as DisplayMode)}
-								className={cn(
-									'btn-rounded px-3 py-1.5 text-xs font-medium transition-all',
-									displayMode === option.value ? 'bg-brand text-white shadow-sm' : 'text-secondary hover:text-brand hover:bg-white/60'
-								)}>
-								{option.label}
-							</motion.button>
-						))}
-					</motion.div>
-				)}
-
-				{groupKeys.map((groupKey, index) => {
-					const group = groupedItems[groupKey]
-					if (!group) return null
-
-					return (
+			<div className='px-6 pt-24 pb-8 max-sm:pt-24'>
+				<div className='mx-auto mb-8 flex max-w-[1200px] flex-col items-center justify-center gap-4 px-4 sm:relative sm:flex-row'>
+					{items.length > 0 && (
 						<motion.div
-							key={groupKey}
-							initial={{ opacity: 0, scale: 0.95 }}
-							whileInView={{ opacity: 1, scale: 1 }}
-							transition={{ delay: INIT_DELAY / 2 }}
-							className='card relative w-full max-w-[840px] space-y-6'>
-							<div className='mb-3 flex items-center justify-between gap-3 text-base'>
-								<div className='flex items-center gap-3'>
-									<div className='font-medium'>{getGroupLabel(groupKey)}</div>
-									<div className='h-2 w-2 rounded-full bg-[#D9D9D9]'></div>
-									<div className='text-secondary text-sm'>{group.items.length} 篇文章</div>
-								</div>
-								{editMode &&
-									(() => {
-										const groupAllSelected = group.items.every(item => selectedSlugs.has(item.slug))
-										return (
-											<motion.button
-												whileHover={{ scale: 1.05 }}
-												whileTap={{ scale: 0.95 }}
-												onClick={() => handleSelectGroup(groupKey)}
-												className={cn(
-													'rounded-lg border px-3 py-1 text-xs transition-colors',
-													groupAllSelected
-														? 'border-brand/40 bg-brand/10 text-brand hover:bg-brand/20'
-														: 'text-secondary hover:border-brand/40 hover:text-brand border-transparent bg-white/60 hover:bg-white/80'
-												)}>
-												{groupAllSelected ? '取消全选' : '全选该分组'}
-											</motion.button>
-										)
-									})()}
-							</div>
-							<div>
-								{group.items.map(it => {
-									const hasRead = isRead(it.slug)
-									const isSelected = selectedSlugs.has(it.slug)
-									return (
-										<Link
-											href={`/blog/${it.slug}`}
-											key={it.slug}
-											onClick={event => handleItemClick(event, it.slug)}
-											className={cn(
-												'group flex min-h-10 items-center gap-3 py-3 transition-all',
-												editMode
-													? cn(
-															'rounded-lg border px-3',
-															isSelected ? 'border-brand/60 bg-brand/5' : 'hover:border-brand/40 border-transparent hover:bg-white/60'
-														)
-													: 'cursor-pointer'
-											)}>
-											{editMode && (
-												<span
-													className={cn(
-														'flex h-4 w-4 items-center justify-center rounded-full border text-[10px] font-semibold',
-														isSelected ? 'border-brand bg-brand text-white' : 'border-[#D9D9D9] text-transparent'
-													)}>
-													<Check />
-												</span>
-											)}
-											<span className='text-secondary w-[44px] shrink-0 text-sm font-medium'>{dayjs(it.date).format('MM-DD')}</span>
-
-											<div className='relative flex h-2 w-2 items-center justify-center'>
-												<div className='bg-secondary group-hover:bg-brand h-[5px] w-[5px] rounded-full transition-all group-hover:h-4'></div>
-												<ShortLineSVG className='absolute bottom-4' />
-											</div>
-											<div
-												className={cn(
-													'flex-1 truncate text-sm font-medium transition-all',
-													editMode ? null : 'group-hover:text-brand group-hover:translate-x-2'
-												)}>
-												{it.title || it.slug}
-												{hasRead && <span className='text-secondary ml-2 text-xs'>[已阅读]</span>}
-											</div>
-											<div className='flex flex-wrap items-center gap-2 max-sm:hidden'>
-												{(it.tags || []).map(t => (
-													<span key={t} className='text-secondary text-sm'>
-														#{t}
-													</span>
-												))}
-											</div>
-										</Link>
-									)
-								})}
-							</div>
-						</motion.div>
-					)
-				})}
-				{items.length > 0 && (
-					<div className='text-center'>
-						<motion.a
 							initial={{ opacity: 0, scale: 0.6 }}
 							animate={{ opacity: 1, scale: 1 }}
-							whileHover={{ scale: 1.05 }}
-							whileTap={{ scale: 0.95 }}
-							href='https://juejin.cn/user/2427311675422382/posts'
-							target='_blank'
-							className='card text-secondary static inline-flex items-center gap-2 rounded-xl px-4 py-2 text-xs'>
-							<JuejinSVG className='h-4 w-4' />
-							更多
-						</motion.a>
+							className='card btn-rounded relative mx-auto flex w-fit items-center gap-1 p-1 max-sm:hidden'>
+							{[
+								{ value: 'day', label: '日' },
+								{ value: 'week', label: '周' },
+								{ value: 'month', label: '月' },
+								{ value: 'year', label: '年' },
+								...(enableCategories ? ([{ value: 'category', label: '分类树' }] as const) : [])
+							].map(option => (
+								<motion.button
+									key={option.value}
+									whileHover={{ scale: 1.05 }}
+									whileTap={{ scale: 0.95 }}
+									onClick={() => setDisplayMode(option.value as DisplayMode)}
+									className={cn(
+										'btn-rounded px-3 py-1.5 text-xs font-medium transition-all',
+										displayMode === option.value ? 'bg-brand text-white shadow-sm' : 'text-secondary hover:text-brand hover:bg-white/60'
+									)}>
+									{option.label}
+								</motion.button>
+							))}
+						</motion.div>
+					)}
+
+					<div className='relative w-full sm:absolute sm:top-1/2 sm:right-4 sm:w-[260px] sm:-translate-y-1/2'>
+						<div className='pointer-events-none absolute inset-y-0 left-0 z-10 flex items-center pl-3'>
+							<Search className='text-secondary h-4 w-4' />
+						</div>
+						<input
+							type='text'
+							value={noteQuery}
+							onChange={e => setNoteQuery(e.target.value)}
+							placeholder='搜索笔记：标题、标签、分类'
+							className='focus:border-brand/40 w-full rounded-lg border bg-white/70 py-2 pr-3 pl-9 text-sm backdrop-blur-sm outline-none'
+						/>
 					</div>
-				)}
+				</div>
+
+				<div className='mx-auto flex max-w-[1200px] items-start gap-6'>
+					{enableCategories && displayMode === 'category' && (
+						<CategoryTreeSidebar
+							categories={categoryList}
+							counts={categoryCounts}
+							activeCategory={activeCategory}
+							onSelect={handleCategorySelect}
+							onClearActive={() => setActiveCategory(null)}
+						/>
+					)}
+
+					<div className='flex flex-1 flex-col items-center gap-6 pt-2'>
+						{visibleGroupKeys.map(groupKey => {
+							const group = groupedItems[groupKey]
+							if (!group) return null
+
+							return (
+								<motion.div
+									id={displayMode === 'category' ? categoryToAnchorId(groupKey) : undefined}
+									key={groupKey}
+									initial={{ opacity: 0, scale: 0.95 }}
+									whileInView={{ opacity: 1, scale: 1 }}
+									transition={{ delay: INIT_DELAY / 2 }}
+									className='card relative w-full max-w-[840px] scroll-mt-28 space-y-6'>
+									<div className='mb-3 flex items-center justify-between gap-3 text-base'>
+										<div className='flex items-center gap-3'>
+											<div className='font-medium'>{getGroupLabel(groupKey)}</div>
+											<div className='h-2 w-2 rounded-full bg-[#D9D9D9]'></div>
+											<div className='text-secondary text-sm'>{group.items.length} 篇文章</div>
+										</div>
+										{editMode &&
+											(() => {
+												const groupAllSelected = group.items.every(item => selectedSlugs.has(item.slug))
+												return (
+													<motion.button
+														whileHover={{ scale: 1.05 }}
+														whileTap={{ scale: 0.95 }}
+														onClick={() => handleSelectGroup(groupKey)}
+														className={cn(
+															'rounded-lg border px-3 py-1 text-xs transition-colors',
+															groupAllSelected
+																? 'border-brand/40 bg-brand/10 text-brand hover:bg-brand/20'
+																: 'text-secondary hover:border-brand/40 hover:text-brand border-transparent bg-white/60 hover:bg-white/80'
+														)}>
+														{groupAllSelected ? '取消全选' : '全选该分组'}
+													</motion.button>
+												)
+											})()}
+									</div>
+									<div>
+										{group.items.map(it => {
+											const hasRead = isRead(it.slug)
+											const isSelected = selectedSlugs.has(it.slug)
+											return (
+												<Link
+													href={`/blog/${it.slug}`}
+													key={it.slug}
+													onClick={event => handleItemClick(event, it.slug)}
+													className={cn(
+														'group flex min-h-10 items-center gap-3 py-3 transition-all',
+														editMode
+															? cn(
+																	'rounded-lg border px-3',
+																	isSelected ? 'border-brand/60 bg-brand/5' : 'hover:border-brand/40 border-transparent hover:bg-white/60'
+																)
+															: 'cursor-pointer'
+													)}>
+													{editMode && (
+														<span
+															className={cn(
+																'flex h-4 w-4 items-center justify-center rounded-full border text-[10px] font-semibold',
+																isSelected ? 'border-brand bg-brand text-white' : 'border-[#D9D9D9] text-transparent'
+															)}>
+															<Check />
+														</span>
+													)}
+													<span className='text-secondary w-[44px] shrink-0 text-sm font-medium'>{dayjs(it.date).format('MM-DD')}</span>
+
+													<div className='relative flex h-2 w-2 items-center justify-center'>
+														<div className='bg-secondary group-hover:bg-brand h-[5px] w-[5px] rounded-full transition-all group-hover:h-4'></div>
+														<ShortLineSVG className='absolute bottom-4' />
+													</div>
+													<div
+														className={cn(
+															'flex-1 truncate text-sm font-medium transition-all',
+															editMode ? null : 'group-hover:text-brand group-hover:translate-x-2'
+														)}>
+														{it.title || it.slug}
+														{hasRead && <span className='text-secondary ml-2 text-xs'>[已阅读]</span>}
+													</div>
+													<div className='flex flex-wrap items-center gap-2 max-sm:hidden'>
+														{(it.tags || []).map(t => (
+															<span key={t} className='text-secondary text-sm'>
+																#{t}
+															</span>
+														))}
+													</div>
+												</Link>
+											)
+										})}
+									</div>
+								</motion.div>
+							)
+						})}
+
+						{items.length > 0 && (
+							<div className='text-center'>
+								<motion.a
+									initial={{ opacity: 0, scale: 0.6 }}
+									animate={{ opacity: 1, scale: 1 }}
+									whileHover={{ scale: 1.05 }}
+									whileTap={{ scale: 0.95 }}
+									href='https://juejin.cn/user/2427311675422382/posts'
+									target='_blank'
+									className='card text-secondary static inline-flex items-center gap-2 rounded-xl px-4 py-2 text-xs'>
+									<JuejinSVG className='h-4 w-4' />
+									更多
+								</motion.a>
+							</div>
+						)}
+					</div>
+				</div>
 			</div>
 
 			<div className='pt-12'>
 				{!loading && items.length === 0 && <div className='text-secondary py-6 text-center text-sm'>暂无文章</div>}
+				{!loading && items.length > 0 && visibleGroupKeys.length === 0 && (
+					<div className='text-secondary py-6 text-center text-sm'>未找到匹配笔记，请更换关键词</div>
+				)}
 				{loading && <div className='text-secondary py-6 text-center text-sm'>加载中...</div>}
 			</div>
 

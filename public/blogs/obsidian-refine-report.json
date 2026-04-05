@@ -1,0 +1,82 @@
+{
+	"total_after": 187,
+	"removed_count": 14,
+	"removed": [
+		{
+			"slug": "obsn-note-bc5441",
+			"reason": "移除系统说明文档"
+		},
+		{
+			"slug": "obsn-note-b4d712",
+			"reason": "移除首页欢迎页"
+		},
+		{
+			"slug": "obsn-bi-ji-shu-ju-zong-lan",
+			"reason": "移除模板/总览类文件"
+		},
+		{
+			"slug": "obsn-zong-liu-cheng-tu-xue-sheng-xue-ji-guan-li-xi-tong",
+			"reason": "移除 Excalidraw 原始导出文件"
+		},
+		{
+			"slug": "obsn-xiu-gai-xue-sheng-xin-xi-liu-cheng-tu",
+			"reason": "移除 Excalidraw 原始导出文件"
+		},
+		{
+			"slug": "obsn-zai-xian-ce-shi-luo-ji",
+			"reason": "移除 Excalidraw 原始导出文件"
+		},
+		{
+			"slug": "obsn-sou-suo-xin-xi-liu-cheng-tu",
+			"reason": "移除 Excalidraw 原始导出文件"
+		},
+		{
+			"slug": "obsn-tu-9e36cc",
+			"reason": "移除 Excalidraw 原始导出文件"
+		},
+		{
+			"slug": "obsn-zai-xian-ce-shi-luo-ji-088450",
+			"reason": "移除 Excalidraw 原始导出文件"
+		},
+		{
+			"slug": "obsn-note-50ac30",
+			"reason": "移除模板工具文件"
+		},
+		{
+			"slug": "obsn-ren-sheng-jin-du-tiao",
+			"reason": "移除模板/总览类文件"
+		},
+		{
+			"slug": "obsn-jin-ri-xin-qing-xuan-ze",
+			"reason": "移除模板/总览类文件"
+		},
+		{
+			"slug": "obsn-zhou-ji-mu-ban",
+			"reason": "移除模板/总览类文件"
+		},
+		{
+			"slug": "obsn-ri-ji-mu-ban",
+			"reason": "移除模板/总览类文件"
+		}
+	],
+	"category_updated_count": 176,
+	"format_fixed_count": 68,
+	"categories": [
+		"代码实现",
+		"学业与考试",
+		"学业与考试/期末复习-Java",
+		"学业与考试/期末复习-人工智能",
+		"学业与考试/期末复习-嵌入式",
+		"学业与考试/考研择校",
+		"学业与考试/考研数学",
+		"学业与考试/考研数据结构",
+		"技术知识库/AI提示词",
+		"技术知识库/服务器部署",
+		"技术知识库/树莓派",
+		"技术知识库/环境配置",
+		"技术知识库/通用",
+		"日志/周复盘",
+		"日志/日记",
+		"项目与实践/项目文档"
+	]
+}

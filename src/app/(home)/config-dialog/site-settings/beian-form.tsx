@@ -36,4 +36,3 @@ export function BeianForm({ formData, setFormData }: BeianFormProps) {
 		</div>
 	)
 }
-
