@@ -1,1685 +1,2055 @@
 [
-	{
-		"slug": "12asas",
-		"title": "测试",
-		"tags": [],
-		"date": "2026-04-05T14:44",
-		"summary": "",
-		"hidden": false,
-		"category": "代码实现"
-	},
-	{
-		"slug": "26-4-5",
-		"title": "简单docker项目部署",
-		"tags": [],
-		"date": "2026-04-05T11:16",
-		"summary": "",
-		"hidden": false,
-		"category": "代码实现"
-	},
-	{
-		"slug": "obsn-gao-deng-shu-xue-fu-xi-bi-ji",
-		"title": "高等数学复习笔记",
-		"tags": ["obsidian"],
-		"date": "2026-03-31T23:09",
-		"summary": "第0讲 基础公式与代数变形",
-		"hidden": false,
-		"category": "学业与考试"
-	},
-	{
-		"slug": "obsn-nan-jing-you-dian-da-xue",
-		"title": "南京邮电大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T14:46",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-shen-zhen-da-xue",
-		"title": "深圳大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T14:44",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-zhong-guo-ke-xue-yuan-cheng-du-ji-suan-ji-ying-yong-yan-jiu-suo",
-		"title": "中国科学院成都计算机应用研究所 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T00:19",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-zhong-guo-ke-xue-yuan-ji-suan-ji-wang-luo-xin-xi-zhong-xin",
-		"title": "中国科学院计算机网络信息中心 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T00:19",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-si-chuan-nong-ye-da-xue",
-		"title": "四川农业大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T00:19",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-zhong-guo-ke-xue-yuan-shen-yang-ji-suan-ji-shu-yan-jiu-suo",
-		"title": "中国科学院沈阳计算技术研究所 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T00:18",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-zhong-guo-ke-xue-yuan-zi-dong-hua-yan-jiu-suo",
-		"title": "中国科学院自动化研究所 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T00:18",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-nan-jing-xin-xi-gong-cheng-da-xue",
-		"title": "南京信息工程大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T00:18",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-shan-xi-shi-fan-da-xue",
-		"title": "陕西师范大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T00:18",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-zhong-guo-ke-xue-yuan-da-xue",
-		"title": "中国科学院大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T00:17",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-nan-fang-ke-ji-da-xue",
-		"title": "南方科技大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T00:17",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-guang-xi-da-xue",
-		"title": "广西大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T00:16",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-kun-ming-li-gong-da-xue",
-		"title": "昆明理工大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T00:16",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-ji-nan-da-xue",
-		"title": "暨南大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T00:16",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-hai-nan-da-xue",
-		"title": "海南大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T00:16",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-xi-bei-da-xue",
-		"title": "西北大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T00:16",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-xi-nan-da-xue",
-		"title": "西南大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T00:16",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-tian-jin-li-gong-da-xue",
-		"title": "天津理工大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T00:15",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-shan-dong-ke-ji-da-xue",
-		"title": "山东科技大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T00:15",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-wu-han-ke-ji-da-xue",
-		"title": "武汉科技大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-29T00:15",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-zhong-guo-ke-xue-yuan-xin-xi-gong-cheng-yan-jiu-suo",
-		"title": "中国科学院信息工程研究所 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:29",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-zhong-guo-ke-xue-yuan-shen-zhen-xian-jin-ji-shu-yan-jiu-yuan",
-		"title": "中国科学院深圳先进技术研究院 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:29",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-zhong-guo-ke-xue-yuan-ji-suan-ji-shu-yan-jiu-suo",
-		"title": "中国科学院计算技术研究所 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:28",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-zhong-guo-ke-xue-yuan-ruan-jian-yan-jiu-suo",
-		"title": "中国科学院软件研究所 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:28",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-jiang-su-da-xue",
-		"title": "江苏大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:27",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-zhe-jiang-gong-ye-da-xue",
-		"title": "浙江工业大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:27",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-xiang-tan-da-xue",
-		"title": "湘潭大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:27",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-yan-shan-da-xue",
-		"title": "燕山大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:26",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-xi-an-you-dian-da-xue",
-		"title": "西安邮电大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:26",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-gui-lin-dian-zi-ke-ji-da-xue",
-		"title": "桂林电子科技大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:25",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-chong-qing-you-dian-da-xue",
-		"title": "重庆邮电大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:22",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-hang-zhou-dian-zi-ke-ji-da-xue",
-		"title": "杭州电子科技大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:21",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-shang-hai-da-xue",
-		"title": "上海大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:20",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-ning-bo-da-xue",
-		"title": "宁波大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:19",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-shan-xi-da-xue",
-		"title": "山西大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:19",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-zhong-nan-cai-jing-zheng-fa-da-xue",
-		"title": "中南财经政法大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:15",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-hua-zhong-shi-fan-da-xue",
-		"title": "华中师范大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:14",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-wu-han-li-gong-da-xue",
-		"title": "武汉理工大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:13",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-zheng-zhou-da-xue",
-		"title": "郑州大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:12",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-fu-zhou-da-xue",
-		"title": "福州大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:02",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-he-fei-gong-ye-da-xue",
-		"title": "合肥工业大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:01",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-nan-jing-li-gong-da-xue",
-		"title": "南京理工大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:00",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-nan-jing-hang-kong-hang-tian-da-xue",
-		"title": "南京航空航天大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T23:00",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-zhong-guo-kuang-ye-da-xue",
-		"title": "中国矿业大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T22:49",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-he-hai-da-xue",
-		"title": "河海大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T22:49",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-bei-jing-you-dian-da-xue",
-		"title": "北京邮电大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T22:48",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-hua-bei-dian-li-da-xue",
-		"title": "华北电力大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T22:48",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-bei-jing-jiao-tong-da-xue",
-		"title": "北京交通大学 计算机考研详档（2026版）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T22:43",
-		"summary": "1. 基本信息",
-		"hidden": false,
-		"category": "学业与考试/考研择校"
-	},
-	{
-		"slug": "obsn-ji-suan-ji-kao-yan-yuan-xiao-chu-xuan-qing-dan-pu-tong-yi-ben-dao",
-		"title": "计算机考研院校初选清单（普通一本到211）",
-		"tags": ["obsidian"],
-		"date": "2026-03-28T22:11",
-		"summary": "说明：",
-		"hidden": false,
-		"category": "学业与考试"
-	},
-	{
-		"slug": "obsn-yu-fang-xiao-yuan-wang-duo-she-bei-jian-ce-pei-zhi",
-		"title": "OpenWrt 预防校园网多设备检测配置指南",
-		"tags": ["obsidian"],
-		"date": "2026-03-22T15:46",
-		"summary": "info 原理概述",
-		"hidden": false,
-		"category": "技术知识库/通用"
-	},
-	{
-		"slug": "obsn-yu-shi-yong-zhi-nan",
-		"title": "OpenCode 与 Oh My OpenCode 使用指南",
-		"tags": ["obsidian"],
-		"date": "2026-03-02T22:59",
-		"summary": "OpenCode 是一个开源的 AI 编程助手，Oh My OpenCode 是其增强插件，提供了多智能体协作系统。",
-		"hidden": false,
-		"category": "技术知识库/环境配置"
-	},
-	{
-		"slug": "obsn-hei-ke-feng-zhong-duan-liao-tian-shi",
-		"title": "hacker-chat",
-		"tags": ["obsidian"],
-		"date": "2026-03-02T15:41",
-		"summary": "text",
-		"hidden": false,
-		"category": "项目与实践/项目文档"
-	},
-	{
-		"slug": "obsn-yu-yan-kua-ping-tai-rong-qi-jian-kong-mian-ban",
-		"title": "🌐 MINI PORTAINER GLOBAL 跨端容器监控面板",
-		"tags": ["obsidian"],
-		"date": "2026-03-01T19:52",
-		"summary": "📑 项目简介",
-		"hidden": false,
-		"category": "项目与实践/项目文档"
-	},
-	{
-		"slug": "obsn-qian-ru-shi-yuan-cheng-kai-fa-huan-jing-da-jian-zhi-nan",
-		"title": "VS Code 嵌入式 Linux 远程开发指南 (SFTP + Makefile 方案)",
-		"tags": ["obsidian"],
-		"date": "2026-02-19T12:24",
-		"summary": "适用硬件：STM32MP157 开发板 FSMP1A 或其他 Linux 开发板",
-		"hidden": false,
-		"category": "学业与考试/期末复习-嵌入式"
-	},
-	{
-		"slug": "obsn-lian-jie-wen-ti-jie-jue",
-		"title": "GitHub 连接问题汇总",
-		"tags": ["obsidian"],
-		"date": "2026-02-14T13:29",
-		"summary": "本文档记录 GitHub Push/Pull 失败时的常见错误及解决方案。",
-		"hidden": false,
-		"category": "技术知识库/环境配置"
-	},
-	{
-		"slug": "obsn-wang-dao-shu-ju-jie-gou",
-		"title": "王道考研 数据结构",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:42",
-		"summary": "info 课程信息",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-ju-zhen",
-		"title": "矩阵的压缩存储",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "1. 一维数组",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-dui-lie",
-		"title": "队列",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "1. 队列的顺序实现",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-zhan",
-		"title": "栈",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "1. 顺序栈",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-zhan-de-ying-yong",
-		"title": "栈的应用",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "1. 括号匹配",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-zhan-he-dui-lie",
-		"title": "栈和队列",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "三要素：",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-chuan",
-		"title": "串",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "1. 定义",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-er-cha-shu",
-		"title": "二叉树",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "二叉树是 $n（n \\geq 0）$ 个结点的有限集合。",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-er-cha-shu-de-ying-yong",
-		"title": "二叉树的应用",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "1. 二叉排序树",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-er-cha-shu-de-cun-chu",
-		"title": "二叉树的存储结构",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "1. 二叉树的顺序存储",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-er-cha-shu-de-bian-li",
-		"title": "二叉树的遍历",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "按照某条搜索路径访问树中的每个结点，树的每个结点均被访问一次，而且只访问一次。",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-shu-de-ying-yong",
-		"title": "树的应用",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "1. 并查集",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-shu-de-cun-chu",
-		"title": "树的存储结构",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "1. 双亲表示法",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-shu-de-bian-li",
-		"title": "树与森林",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "1. 树与二叉树的转换",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-shu-yu-er-cha-shu",
-		"title": "树与二叉树",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "1. 树的基本概念",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-zhe-ban-cha-ru-pai-xu",
-		"title": "折半插入排序",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "折半插入排序1 bis1.jpg",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-mao-pao-pai-xu",
-		"title": "冒泡排序",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "冒泡排序1 bs1.jpg",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-ji-shu-pai-xu",
-		"title": "基数排序",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "基数排序1 cs1.jpg",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-zhi-jie-cha-ru-pai-xu",
-		"title": "直接插入排序",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "直接插入排序1 dis1.jpg",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-wai-bu-pai-xu",
-		"title": "外部排序",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "外部排序1 es1.jpg",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-dui-pai-xu",
-		"title": "堆排序",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "堆排序1 hs1.jpg",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-gui-bing-pai-xu",
-		"title": "归并排序",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "归并排序1 ms1.jpg",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-kuai-su-pai-xu",
-		"title": "快速排序",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "快速排序1 qs1.jpg",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-xi-er-pai-xu",
-		"title": "希尔排序",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "希尔排序1 ss1.jpg",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-jian-dan-xuan-ze-pai-xu",
-		"title": "简单选择排序",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:39",
-		"summary": "简单选择排序1 sss1.jpg",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-shuang-lian-biao",
-		"title": "双链表",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:38",
-		"summary": "cpp",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-pai-xu",
-		"title": "排序",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:38",
-		"summary": "1. 基本概念",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-dan-lian-biao",
-		"title": "单链表",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:36",
-		"summary": "1. typedef 关键词",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-xian-xing-biao",
-		"title": "线性表",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:27",
-		"summary": "1. 定义",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-tu-de-ying-yong",
-		"title": "图的应用",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:27",
-		"summary": "1. 最小生成树",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-tu-de-gai-nian",
-		"title": "图的基本概念",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:27",
-		"summary": "1. 无向图 & 有向图",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-tu-de-cao-zuo",
-		"title": "图的基本操作",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:27",
-		"summary": "1. 边是否存在",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-tu-de-cun-chu",
-		"title": "图的存储结构",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:27",
-		"summary": "1. 邻接矩阵法",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-tu-de-bian-li",
-		"title": "图的遍历",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:27",
-		"summary": "1. 广度优先搜索",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-tu",
-		"title": "图",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:27",
-		"summary": "1. 基本概念 concept/README.md 图的基本概念",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-shu",
-		"title": "B+ 树",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:27",
-		"summary": "考研中对 B+ 树之考查定义；对 B 树既考察定义，也考察操作。",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-shu-7bb1b4",
-		"title": "B 树",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:27",
-		"summary": "B树1 b tree1.jpg",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-zhe-ban-cha-zhao",
-		"title": "折半查找",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:27",
-		"summary": "折半查找1 binary search1.jpg",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-fen-kuai-cha-zhao",
-		"title": "分块查找",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:27",
-		"summary": "分块查找1 block search1.jpg",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-san-lie-biao",
-		"title": "散列表",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:27",
-		"summary": "1. 基本概念",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-shun-xu-cha-zhao",
-		"title": "顺序查找",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:27",
-		"summary": "顺序查找1 sequential search1.jpg",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-cha-zhao",
-		"title": "查找",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:27",
-		"summary": "1. 基本概念",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-xun-huan-lian-biao",
-		"title": "循环链表",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:26",
-		"summary": "1. 循环单链表",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-shun-xu-biao",
-		"title": "顺序表",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:26",
-		"summary": "顺序表：用顺序存储方式实现的线性表。",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-jing-tai-lian-biao",
-		"title": "静态链表",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T02:26",
-		"summary": "1. 定义",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-chuan-a651d8",
-		"title": "第四章：串 (String)",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T01:43",
-		"summary": "1. 串的基本概念",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-tu-55f2b9",
-		"title": "第六章：图 (Graph)",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T01:41",
-		"summary": "1. 图的基本概念",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-shu-yu-er-cha-shu-7c3058",
-		"title": "第五章：树与二叉树 (Tree & Binary Tree)",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T01:39",
-		"summary": "1. 树的基本概念",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-cha-zhao-40539b",
-		"title": "第七章：查找 (Search)",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T01:34",
-		"summary": "1. 线性结构查找",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-pai-xu-228f33",
-		"title": "第八章：排序 (Sort)",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T01:30",
-		"summary": "1. 插入排序",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-xian-xing-biao-406259",
-		"title": "第二章：线性表",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T00:40",
-		"summary": "1. 线性表的定义",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-zhan-dui-lie-he-shu-zu",
-		"title": "第三章：栈、队列和数组",
-		"tags": ["obsidian"],
-		"date": "2026-02-07T00:40",
-		"summary": "1. 栈 Stack",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-xu-lun",
-		"title": "第一章：绪论",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T21:34",
-		"summary": "1. 数据结构的基本概念",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-qi-mo-kao-shi-fu-xi-bi-ji",
-		"title": "Python 期末考试复习笔记",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "abstract 考试概况",
-		"hidden": false,
-		"category": "学业与考试"
-	},
-	{
-		"slug": "obsn-zhong-dian-xi-ti-ji",
-		"title": "Python快速编程入门(第三版) - 重点习题集",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "Python 编程/Python 习题",
-		"hidden": false,
-		"category": "学业与考试"
-	},
-	{
-		"slug": "obsn-ren-gong-zhi-neng-ming-ci-gai-nian",
-		"title": "📘 **机器学习基础知识点总结（来自前面问答）**",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "一、常见激活函数",
-		"hidden": false,
-		"category": "学业与考试/期末复习-人工智能"
-	},
-	{
-		"slug": "obsn-ren-gong-zhi-neng-ji-shu-ti-ku",
-		"title": "人工智能技术-题库",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "AI 深度学习 机器学习 期末复习",
-		"hidden": false,
-		"category": "学业与考试/期末复习-人工智能"
-	},
-	{
-		"slug": "obsn-shen-du-xue-xi-quan-jia-tong",
-		"title": "🧠 深度学习全家桶 · 知识图谱",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "0. 全局总图（可以放在笔记首页）",
-		"hidden": false,
-		"category": "学业与考试/考研数据结构"
-	},
-	{
-		"slug": "obsn-ren-gong-zhi-neng-qi-mo-fu-xi-bi-ji",
-		"title": "🎓 人工智能期末复习笔记",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "abstract 复习策略",
-		"hidden": false,
-		"category": "学业与考试/期末复习-人工智能"
-	},
-	{
-		"slug": "obsn-shen-du-xue-xi-quan-jia-tong-kao-dian-qiang-hua-ban",
-		"title": "🧠 深度学习全家桶 · 考点强化版",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "0. 🗺️ 全局总图与基础",
-		"hidden": false,
-		"category": "学业与考试/期末复习-人工智能"
-	},
-	{
-		"slug": "obsn-shen-du-xue-xi-quan-jia-tong-xiang-jie-ban",
-		"title": "🧠 深度学习全家桶 · 详解版",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "abstract 笔记说明",
-		"hidden": false,
-		"category": "学业与考试/期末复习-人工智能"
-	},
-	{
-		"slug": "obsn-qi-mo-fu-xi-ti",
-		"title": "Java期末复习题",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "第1章 Java开发入门",
-		"hidden": false,
-		"category": "学业与考试/期末复习-Java"
-	},
-	{
-		"slug": "obsn-ke-ben-cheng-xu-ti",
-		"title": "案例2-1 库房出入货物程序设计",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "案例介绍",
-		"hidden": false,
-		"category": "学业与考试"
-	},
-	{
-		"slug": "obsn-cheng-xu-she-ji-qi-mo-kao-shi-shi-ti-juan",
-		"title": "《Java程序设计》期末考试试题卷（A）",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "一、单项选择题（每小题2分，共10题共计20分）",
-		"hidden": false,
-		"category": "学业与考试/期末复习-Java"
-	},
-	{
-		"slug": "obsn-shu-ju-ku",
-		"title": "数据库",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "第一章 概述",
-		"hidden": false,
-		"category": "学业与考试"
-	},
-	{
-		"slug": "obsn-ma-yuan-qi-mo-kao-shi-gong-lve",
-		"title": "**第一章**",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "第一节（物质&意识、主观能动性&客观规律、运动&静止）",
-		"hidden": false,
-		"category": "学业与考试"
-	},
-	{
-		"slug": "obsn-xue-nian-qian-ru-shi-xi-tong-qi-mo-shi-juan",
-		"title": "洛阳理工学院 2024/2025 学年嵌入式系统期末试卷 (A)",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "info 考试信息",
-		"hidden": false,
-		"category": "学业与考试/期末复习-嵌入式"
-	},
-	{
-		"slug": "obsn-can-kao-da-an-yu-jie-xi",
-		"title": "参考答案与解析",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "一、选择题",
-		"hidden": false,
-		"category": "学业与考试/期末复习-嵌入式"
-	},
-	{
-		"slug": "obsn-qian-ru-shi-xi-tong-qi-zhong-kao-shi-shi-ti",
-		"title": "嵌入式系统 期中考试试题",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "洛阳理工学院 2025/2026 学年 第一学期 嵌入式系统 期中考试试题",
-		"hidden": false,
-		"category": "学业与考试/期末复习-嵌入式"
-	},
-	{
-		"slug": "obsn-qian-ru-shi-xi-tong-qi-mo-fu-xi-bi-ji",
-		"title": "嵌入式系统期末复习笔记",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "嵌入式 ARM 考试复习 微处理器",
-		"hidden": false,
-		"category": "学业与考试/期末复习-嵌入式"
-	},
-	{
-		"slug": "obsn-zhi-ling-ji-qi-han-yi",
-		"title": "指令及其含义",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "这是最基础且核心的部分，重点掌握 LDR , STR , MOV , ADD , B/BL 。",
-		"hidden": false,
-		"category": "学业与考试/期末复习-嵌入式"
-	},
-	{
-		"slug": "obsn-jian-da-ti",
-		"title": "简答题",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "嵌入式系统基础",
-		"hidden": false,
-		"category": "学业与考试/期末复习-嵌入式"
-	},
-	{
-		"slug": "obsn-wu-lian-wang-shi-bie-ji-shu-qi-mo-su-cheng-fu-xi-bi-ji",
-		"title": "《物联网识别技术》期末速成复习笔记",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "🛡️ 考前必读：试卷结构分析",
-		"hidden": false,
-		"category": "学业与考试/期末复习-嵌入式"
-	},
-	{
-		"slug": "obsn-wu-lian-wang-shi-bie-ji-shu-qi-mo-zhong-ji-fu-xi-zhi-nan",
-		"title": "📖 《物联网识别技术》期末终极复习指南",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "SUMMARY 考试策略",
-		"hidden": false,
-		"category": "学业与考试/期末复习-嵌入式"
-	},
-	{
-		"slug": "obsn-wu-lian-wang-tong-xin-qi-mo-fu-xi-zhi-nan",
-		"title": "物联网通信期末复习指南",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "info 复习策略",
-		"hidden": false,
-		"category": "学业与考试/期末复习-嵌入式"
-	},
-	{
-		"slug": "obsn-xin-xi-an-quan-qi-mo-fu-xi-bi-ji",
-		"title": "🛡️ 信息安全期末复习全景笔记 (地毯式梳理版)",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "abstract 复习策略",
-		"hidden": false,
-		"category": "学业与考试"
-	},
-	{
-		"slug": "obsn-wang-an-lun-shu-ti-da-an-can-kao",
-		"title": "网安论述题答案参考",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "1. 网络空间安全具有哪些特点？",
-		"hidden": false,
-		"category": "学业与考试"
-	},
-	{
-		"slug": "obsn-di-yi-jie-han-shu-yu-ji-xian",
-		"title": "第一节函数与极限",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "映射与函数",
-		"hidden": false,
-		"category": "学业与考试/考研数学"
-	},
-	{
-		"slug": "obsn-di-san-jie-yi-yuan-han-shu-wei-fen-xue",
-		"title": "第三节一元函数微分学",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "1. 导数",
-		"hidden": false,
-		"category": "学业与考试/考研数学"
-	},
-	{
-		"slug": "obsn-di-er-jie-shu-lie-ji-xian",
-		"title": "数列极限02",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "子数列",
-		"hidden": false,
-		"category": "学业与考试/考研数学"
-	},
-	{
-		"slug": "obsn-di-si-jie-yi-yuan-han-shu-wei-fen-xue-de-ying-yong",
-		"title": "一、基本求导公式",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "$ x^{\\alpha} ' = \\alpha x^{\\alpha 1} \\alpha \\text{为常数} $",
-		"hidden": false,
-		"category": "学业与考试/考研数学"
-	},
-	{
-		"slug": "obsn-xue-sheng-xue-ji-guan-li-xi-tong",
-		"title": "要求概述",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:56",
-		"summary": "系统以菜单的的方式工作",
-		"hidden": false,
-		"category": "项目与实践/项目文档"
-	},
-	{
-		"slug": "obsn-xiu-xian-mo-ni",
-		"title": "AI修仙模拟",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "请你扮演修仙模拟器与我进行文字游戏，我的第一步指令是：“创建自定义角色”；",
-		"hidden": false,
-		"category": "技术知识库/AI提示词"
-	},
-	{
-		"slug": "obsn-pao-tuan-zhi-ling",
-		"title": "跑团指令",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "期待你与我一起跑团，你来当dm，通过我的想象来推动故事的发展，我对你有以下几点要求：",
-		"hidden": false,
-		"category": "技术知识库/AI提示词"
-	},
-	{
-		"slug": "obsn-bu-shu-xiang-mu-dao-fu-wu-qi",
-		"title": "docker部署项目到服务器",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "项目简介：",
-		"hidden": false,
-		"category": "技术知识库/服务器部署"
-	},
-	{
-		"slug": "obsn-xiang-mu-bu-shu",
-		"title": "Fastapi项目部署",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "项目目录",
-		"hidden": false,
-		"category": "技术知识库/服务器部署"
-	},
-	{
-		"slug": "obsn-chao-ji-jiao-cheng-ban",
-		"title": "什么是 Markdown?",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "1. Markdown 是一款轻量级标记语言，不同于HTML Hypertext Markup Language Markdown 的语法非常简单，且容易上手",
-		"hidden": false,
-		"category": "技术知识库/通用"
-	},
-	{
-		"slug": "obsn-fu-wu-qi-ge-ren-bo-ke-zhu-ti-mei-hua",
-		"title": "ClawCloud服务器+WordPress个人博客+Argon主题美化",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "「ClawCloud Run」推出了注册 180 天以上的 GitHub 账号终身每月免费送$5 美金额度的福利活动，而 WordPress $ 0.06/Day ，相当于是永久免费的个人博客了。",
-		"hidden": false,
-		"category": "技术知识库/服务器部署"
-	},
-	{
-		"slug": "obsn-bu-shu-xiang-mu-dao-fu-wu-qi-a5b5b5",
-		"title": "docker部署项目到服务器",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "项目简介：",
-		"hidden": false,
-		"category": "技术知识库/服务器部署"
-	},
-	{
-		"slug": "obsn-xiang-mu-bu-shu-d10757",
-		"title": "Fastapi项目部署",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "项目目录",
-		"hidden": false,
-		"category": "技术知识库/服务器部署"
-	},
-	{
-		"slug": "obsn-xin-an-zhuang-xiao-ya",
-		"title": "【新】安装小雅Alist",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "使用一键安装脚本",
-		"hidden": false,
-		"category": "技术知识库/树莓派"
-	},
-	{
-		"slug": "obsn-an-zhuang-xiao-ya",
-		"title": "安装小雅Alist",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "注意：安装小雅Alist之前需要先安装Alist。",
-		"hidden": false,
-		"category": "技术知识库/树莓派"
-	},
-	{
-		"slug": "obsn-da-jian-ge-ren-bo-ke-wang-zhan",
-		"title": "安装WordPress",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "打卡宝塔 软件商店 一键部署 WordPress",
-		"hidden": false,
-		"category": "技术知识库/树莓派"
-	},
-	{
-		"slug": "obsn-shu-mei-pai-an-zhuang-bao-ta-mian-ban",
-		"title": "树莓派安装宝塔面板",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "注意： 安装之前需保证系统纯净，并且不要进行换源",
-		"hidden": false,
-		"category": "技术知识库/树莓派"
-	},
-	{
-		"slug": "obsn-shu-mei-pai-wu-xian-shi-qi-jin-xing-lian-jie",
-		"title": "系统烧录",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "1.使用官方镜像烧录工具",
-		"hidden": false,
-		"category": "技术知识库/树莓派"
-	},
-	{
-		"slug": "obsn-cha-jian-an-zhuang-zhi-nan",
-		"title": "OpenCode 插件安装指南",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "简介",
-		"hidden": false,
-		"category": "技术知识库/环境配置"
-	},
-	{
-		"slug": "obsn-yun-xing-tiao-shi-pei-zhi",
-		"title": "VsCode调试注意",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "要调试的代码路径不能有中文，否则会报错。",
-		"hidden": false,
-		"category": "技术知识库/环境配置"
-	},
-	{
-		"slug": "obsn-xia-an-zhuang-bing-shi-yong-bian-xie-yu-yan-cheng-xu",
-		"title": "前言",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "由于课程 Linux C需要，需要在 Linux 系统下运行C 语言程序，在老师的建议下使用wsl 在window 系统下运行 Ubuntu 系统，同时为了方便代码的编写将使用VS code 进行代码编写。",
-		"hidden": false,
-		"category": "技术知识库/环境配置"
-	},
-	{
-		"slug": "obsn-hou-duan",
-		"title": "Java后端",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "开发工具建议使用IDEA专业版",
-		"hidden": false,
-		"category": "项目与实践/项目文档"
-	},
-	{
-		"slug": "obsn-qian-duan",
-		"title": "Vue前端",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "开发工具建议使用VsCode",
-		"hidden": false,
-		"category": "项目与实践/项目文档"
-	},
-	{
-		"slug": "obsn-jie-kou-diao-yong-shuo-ming",
-		"title": "接口调用说明",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "1. UserController.java",
-		"hidden": false,
-		"category": "项目与实践/项目文档"
-	},
-	{
-		"slug": "obsn-fu-wu-qi-bu-shu",
-		"title": "一、前期准备",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "1. 申请一个服务器",
-		"hidden": false,
-		"category": "项目与实践/项目文档"
-	},
-	{
-		"slug": "obsn-xue-sheng-guan-li-xi-tong-xiang-mu-shuo-ming-wen-dang",
-		"title": "学生管理系统项目说明文档",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "项目概述",
-		"hidden": false,
-		"category": "项目与实践/项目文档"
-	},
-	{
-		"slug": "obsn-su-she-dian-liang-jian-kong-xi-tong-shuo-ming",
-		"title": "宿舍电量监控系统说明",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "Cookie手动获取教程",
-		"hidden": false,
-		"category": "项目与实践/项目文档"
-	},
-	{
-		"slug": "obsn-note",
-		"title": "README",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "本机 VS Code 端",
-		"hidden": false,
-		"category": "项目与实践/项目文档"
-	},
-	{
-		"slug": "obsn-fen-gong",
-		"title": "分工",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "🟢 第一部分：硬件感知 传感器读取",
-		"hidden": false,
-		"category": "项目与实践/项目文档"
-	},
-	{
-		"slug": "obsn-zhi-neng-jia-ju-wu-lian-wang-xi-tong-xiang-mu-shuo-ming-wen-dang",
-		"title": "智能家居物联网系统 - 项目说明文档",
-		"tags": ["obsidian"],
-		"date": "2026-02-06T00:38",
-		"summary": "📋 项目概述",
-		"hidden": false,
-		"category": "学业与考试/期末复习-嵌入式"
-	},
-	{
-		"slug": "obsn-xing-qi-liu-6aba82",
-		"title": "2025-08-02-星期六",
-		"tags": ["obsidian"],
-		"date": "2025-08-02T23:13",
-		"summary": "quote 🎯 今日箴言",
-		"hidden": false,
-		"category": "日志/日记"
-	},
-	{
-		"slug": "obsn-xing-qi-san-62ea95",
-		"title": "2025-07-30-星期三",
-		"tags": ["obsidian"],
-		"date": "2025-07-30T23:44",
-		"summary": "quote 🎯 今日箴言",
-		"hidden": false,
-		"category": "日志/日记"
-	},
-	{
-		"slug": "obsn-xing-qi-er-ca7a87",
-		"title": "2025-07-29-星期二",
-		"tags": ["obsidian"],
-		"date": "2025-07-30T23:43",
-		"summary": "quote 🎯 今日箴言",
-		"hidden": false,
-		"category": "日志/日记"
-	},
-	{
-		"slug": "obsn-xing-qi-si-1a3e7c",
-		"title": "2025-07-31-星期四",
-		"tags": ["obsidian"],
-		"date": "2025-07-30T23:43",
-		"summary": "quote 🎯 今日箴言",
-		"hidden": false,
-		"category": "日志/日记"
-	},
-	{
-		"slug": "obsn-xing-qi-wu-fe56e5",
-		"title": "2025-07-25-星期五",
-		"tags": ["obsidian"],
-		"date": "2025-07-26T22:45",
-		"summary": "quote 🎯 今日箴言",
-		"hidden": false,
-		"category": "日志/日记"
-	},
-	{
-		"slug": "obsn-xing-qi-liu-686253",
-		"title": "2025-07-26-星期六",
-		"tags": ["obsidian"],
-		"date": "2025-07-26T22:45",
-		"summary": "quote 🎯 今日箴言",
-		"hidden": false,
-		"category": "日志/日记"
-	},
-	{
-		"slug": "obsn-note-31d286",
-		"title": "2025-W30",
-		"tags": ["obsidian"],
-		"date": "2025-07-24T23:08",
-		"summary": "// 从当前周记文件名中提取周数信息",
-		"hidden": false,
-		"category": "日志/周复盘"
-	},
-	{
-		"slug": "obsn-note-d971d2",
-		"title": "2025-W29",
-		"tags": ["obsidian"],
-		"date": "2025-07-24T23:07",
-		"summary": "// 从当前周记文件名中提取周数信息",
-		"hidden": false,
-		"category": "日志/周复盘"
-	},
-	{
-		"slug": "obsn-xing-qi-yi",
-		"title": "2025-07-14-星期一",
-		"tags": ["obsidian"],
-		"date": "2025-07-24T23:07",
-		"summary": "quote 一言",
-		"hidden": false,
-		"category": "日志/日记"
-	},
-	{
-		"slug": "obsn-note-d02ea2",
-		"title": "2025-W28",
-		"tags": ["obsidian"],
-		"date": "2025-07-24T23:06",
-		"summary": "// 从当前周记文件名中提取周数信息",
-		"hidden": false,
-		"category": "日志/周复盘"
-	},
-	{
-		"slug": "obsn-xing-qi-liu",
-		"title": "2025-07-12-星期六",
-		"tags": ["obsidian"],
-		"date": "2025-07-24T23:05",
-		"summary": "quote 一言",
-		"hidden": false,
-		"category": "日志/日记"
-	},
-	{
-		"slug": "obsn-xing-qi-ri",
-		"title": "2025-07-13-星期日",
-		"tags": ["obsidian"],
-		"date": "2025-07-24T23:05",
-		"summary": "quote 一言",
-		"hidden": false,
-		"category": "日志/日记"
-	},
-	{
-		"slug": "obsn-xing-qi-er",
-		"title": "2025-07-15-星期二",
-		"tags": ["obsidian"],
-		"date": "2025-07-24T23:04",
-		"summary": "quote 一言",
-		"hidden": false,
-		"category": "日志/日记"
-	},
-	{
-		"slug": "obsn-xing-qi-si-5a64dc",
-		"title": "2025-07-24-星期四",
-		"tags": ["obsidian"],
-		"date": "2025-07-24T23:00",
-		"summary": "quote 🎯 今日箴言",
-		"hidden": false,
-		"category": "日志/日记"
-	},
-	{
-		"slug": "obsn-xing-qi-san-63f4cb",
-		"title": "2025-07-23-星期三",
-		"tags": ["obsidian"],
-		"date": "2025-07-23T22:50",
-		"summary": "quote 🎯 今日箴言",
-		"hidden": false,
-		"category": "日志/日记"
-	},
-	{
-		"slug": "obsn-xing-qi-yi-0e7555",
-		"title": "2025-07-21-星期一",
-		"tags": ["obsidian"],
-		"date": "2025-07-23T00:00",
-		"summary": "quote 🎯 今日箴言",
-		"hidden": false,
-		"category": "日志/日记"
-	},
-	{
-		"slug": "obsn-xing-qi-er-276127",
-		"title": "2025-07-22-星期二",
-		"tags": ["obsidian"],
-		"date": "2025-07-22T23:59",
-		"summary": "quote 🎯 今日箴言",
-		"hidden": false,
-		"category": "日志/日记"
-	},
-	{
-		"slug": "obsn-xing-qi-ri-c66712",
-		"title": "2025-07-20-星期日",
-		"tags": ["obsidian"],
-		"date": "2025-07-21T00:04",
-		"summary": "quote 🎯 今日箴言",
-		"hidden": false,
-		"category": "日志/日记"
-	},
-	{
-		"slug": "obsn-xing-qi-liu-bc8c6f",
-		"title": "2025-07-19-星期六",
-		"tags": ["obsidian"],
-		"date": "2025-07-21T00:03",
-		"summary": "quote 🎯 今日箴言",
-		"hidden": false,
-		"category": "日志/日记"
-	},
-	{
-		"slug": "obsn-xing-qi-san",
-		"title": "2025-07-16-星期三",
-		"tags": ["obsidian"],
-		"date": "2025-07-19T00:44",
-		"summary": "quote 🎯 今日箴言",
-		"hidden": false,
-		"category": "日志/日记"
-	},
-	{
-		"slug": "obsn-xing-qi-wu",
-		"title": "2025-07-18-星期五",
-		"tags": ["obsidian"],
-		"date": "2025-07-18T23:08",
-		"summary": "quote 🎯 今日箴言",
-		"hidden": false,
-		"category": "日志/日记"
-	},
-	{
-		"slug": "obsn-xing-qi-si",
-		"title": "2025-07-17-星期四",
-		"tags": ["obsidian"],
-		"date": "2025-07-18T00:45",
-		"summary": "quote 🎯 今日箴言",
-		"hidden": false,
-		"category": "日志/日记"
-	}
+  {
+    "slug": "12asas",
+    "title": "测试",
+    "tags": [],
+    "date": "2026-04-05T14:44",
+    "summary": "",
+    "hidden": false,
+    "category": "代码实现"
+  },
+  {
+    "slug": "26-4-5",
+    "title": "简单docker项目部署",
+    "tags": [],
+    "date": "2026-04-05T11:16",
+    "summary": "",
+    "hidden": false,
+    "category": "代码实现"
+  },
+  {
+    "slug": "obsn-gao-deng-shu-xue-fu-xi-bi-ji",
+    "title": "高等数学复习笔记",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-31T23:09",
+    "summary": "第0讲 基础公式与代数变形",
+    "hidden": false,
+    "category": "学业与考试"
+  },
+  {
+    "slug": "obsn-nan-jing-you-dian-da-xue",
+    "title": "南京邮电大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T14:46",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-shen-zhen-da-xue",
+    "title": "深圳大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T14:44",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-zhong-guo-ke-xue-yuan-cheng-du-ji-suan-ji-ying-yong-yan-jiu-suo",
+    "title": "中国科学院成都计算机应用研究所 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T00:19",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-zhong-guo-ke-xue-yuan-ji-suan-ji-wang-luo-xin-xi-zhong-xin",
+    "title": "中国科学院计算机网络信息中心 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T00:19",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-si-chuan-nong-ye-da-xue",
+    "title": "四川农业大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T00:19",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-zhong-guo-ke-xue-yuan-shen-yang-ji-suan-ji-shu-yan-jiu-suo",
+    "title": "中国科学院沈阳计算技术研究所 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T00:18",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-zhong-guo-ke-xue-yuan-zi-dong-hua-yan-jiu-suo",
+    "title": "中国科学院自动化研究所 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T00:18",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-nan-jing-xin-xi-gong-cheng-da-xue",
+    "title": "南京信息工程大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T00:18",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-shan-xi-shi-fan-da-xue",
+    "title": "陕西师范大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T00:18",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-zhong-guo-ke-xue-yuan-da-xue",
+    "title": "中国科学院大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T00:17",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-nan-fang-ke-ji-da-xue",
+    "title": "南方科技大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T00:17",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-guang-xi-da-xue",
+    "title": "广西大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T00:16",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-kun-ming-li-gong-da-xue",
+    "title": "昆明理工大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T00:16",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-ji-nan-da-xue",
+    "title": "暨南大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T00:16",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-hai-nan-da-xue",
+    "title": "海南大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T00:16",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-xi-bei-da-xue",
+    "title": "西北大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T00:16",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-xi-nan-da-xue",
+    "title": "西南大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T00:16",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-tian-jin-li-gong-da-xue",
+    "title": "天津理工大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T00:15",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-shan-dong-ke-ji-da-xue",
+    "title": "山东科技大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T00:15",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-wu-han-ke-ji-da-xue",
+    "title": "武汉科技大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-29T00:15",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-zhong-guo-ke-xue-yuan-xin-xi-gong-cheng-yan-jiu-suo",
+    "title": "中国科学院信息工程研究所 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:29",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-zhong-guo-ke-xue-yuan-shen-zhen-xian-jin-ji-shu-yan-jiu-yuan",
+    "title": "中国科学院深圳先进技术研究院 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:29",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-zhong-guo-ke-xue-yuan-ji-suan-ji-shu-yan-jiu-suo",
+    "title": "中国科学院计算技术研究所 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:28",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-zhong-guo-ke-xue-yuan-ruan-jian-yan-jiu-suo",
+    "title": "中国科学院软件研究所 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:28",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-jiang-su-da-xue",
+    "title": "江苏大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:27",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-zhe-jiang-gong-ye-da-xue",
+    "title": "浙江工业大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:27",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-xiang-tan-da-xue",
+    "title": "湘潭大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:27",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-yan-shan-da-xue",
+    "title": "燕山大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:26",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-xi-an-you-dian-da-xue",
+    "title": "西安邮电大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:26",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-gui-lin-dian-zi-ke-ji-da-xue",
+    "title": "桂林电子科技大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:25",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-chong-qing-you-dian-da-xue",
+    "title": "重庆邮电大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:22",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-hang-zhou-dian-zi-ke-ji-da-xue",
+    "title": "杭州电子科技大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:21",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-shang-hai-da-xue",
+    "title": "上海大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:20",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-ning-bo-da-xue",
+    "title": "宁波大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:19",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-shan-xi-da-xue",
+    "title": "山西大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:19",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-zhong-nan-cai-jing-zheng-fa-da-xue",
+    "title": "中南财经政法大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:15",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-hua-zhong-shi-fan-da-xue",
+    "title": "华中师范大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:14",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-wu-han-li-gong-da-xue",
+    "title": "武汉理工大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:13",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-zheng-zhou-da-xue",
+    "title": "郑州大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:12",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-fu-zhou-da-xue",
+    "title": "福州大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:02",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-he-fei-gong-ye-da-xue",
+    "title": "合肥工业大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:01",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-nan-jing-li-gong-da-xue",
+    "title": "南京理工大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:00",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-nan-jing-hang-kong-hang-tian-da-xue",
+    "title": "南京航空航天大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T23:00",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-zhong-guo-kuang-ye-da-xue",
+    "title": "中国矿业大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T22:49",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-he-hai-da-xue",
+    "title": "河海大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T22:49",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-bei-jing-you-dian-da-xue",
+    "title": "北京邮电大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T22:48",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-hua-bei-dian-li-da-xue",
+    "title": "华北电力大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T22:48",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-bei-jing-jiao-tong-da-xue",
+    "title": "北京交通大学 计算机考研详档（2026版）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T22:43",
+    "summary": "1. 基本信息",
+    "hidden": false,
+    "category": "学业与考试/考研择校"
+  },
+  {
+    "slug": "obsn-ji-suan-ji-kao-yan-yuan-xiao-chu-xuan-qing-dan-pu-tong-yi-ben-dao",
+    "title": "计算机考研院校初选清单（普通一本到211）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-28T22:11",
+    "summary": "说明：",
+    "hidden": false,
+    "category": "学业与考试"
+  },
+  {
+    "slug": "obsn-yu-fang-xiao-yuan-wang-duo-she-bei-jian-ce-pei-zhi",
+    "title": "OpenWrt 预防校园网多设备检测配置指南",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-22T15:46",
+    "summary": "info 原理概述",
+    "hidden": false,
+    "category": "技术知识库/通用"
+  },
+  {
+    "slug": "obsn-yu-shi-yong-zhi-nan",
+    "title": "OpenCode 与 Oh My OpenCode 使用指南",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-02T22:59",
+    "summary": "OpenCode 是一个开源的 AI 编程助手，Oh My OpenCode 是其增强插件，提供了多智能体协作系统。",
+    "hidden": false,
+    "category": "技术知识库/环境配置"
+  },
+  {
+    "slug": "obsn-hei-ke-feng-zhong-duan-liao-tian-shi",
+    "title": "hacker-chat",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-02T15:41",
+    "summary": "text",
+    "hidden": false,
+    "category": "项目与实践/项目文档"
+  },
+  {
+    "slug": "obsn-yu-yan-kua-ping-tai-rong-qi-jian-kong-mian-ban",
+    "title": "🌐 MINI PORTAINER GLOBAL 跨端容器监控面板",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-03-01T19:52",
+    "summary": "📑 项目简介",
+    "hidden": false,
+    "category": "项目与实践/项目文档"
+  },
+  {
+    "slug": "obsn-qian-ru-shi-yuan-cheng-kai-fa-huan-jing-da-jian-zhi-nan",
+    "title": "VS Code 嵌入式 Linux 远程开发指南 (SFTP + Makefile 方案)",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-19T12:24",
+    "summary": "适用硬件：STM32MP157 开发板 FSMP1A 或其他 Linux 开发板",
+    "hidden": false,
+    "category": "学业与考试/期末复习-嵌入式"
+  },
+  {
+    "slug": "obsn-lian-jie-wen-ti-jie-jue",
+    "title": "GitHub 连接问题汇总",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-14T13:29",
+    "summary": "本文档记录 GitHub Push/Pull 失败时的常见错误及解决方案。",
+    "hidden": false,
+    "category": "技术知识库/环境配置"
+  },
+  {
+    "slug": "obsn-wang-dao-shu-ju-jie-gou",
+    "title": "王道考研 数据结构",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:42",
+    "summary": "info 课程信息",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-ju-zhen",
+    "title": "矩阵的压缩存储",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "1. 一维数组",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-dui-lie",
+    "title": "队列",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "1. 队列的顺序实现",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-zhan",
+    "title": "栈",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "1. 顺序栈",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-zhan-de-ying-yong",
+    "title": "栈的应用",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "1. 括号匹配",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-zhan-he-dui-lie",
+    "title": "栈和队列",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "三要素：",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-chuan",
+    "title": "串",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "1. 定义",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-er-cha-shu",
+    "title": "二叉树",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "二叉树是 $n（n \\geq 0）$ 个结点的有限集合。",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-er-cha-shu-de-ying-yong",
+    "title": "二叉树的应用",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "1. 二叉排序树",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-er-cha-shu-de-cun-chu",
+    "title": "二叉树的存储结构",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "1. 二叉树的顺序存储",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-er-cha-shu-de-bian-li",
+    "title": "二叉树的遍历",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "按照某条搜索路径访问树中的每个结点，树的每个结点均被访问一次，而且只访问一次。",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-shu-de-ying-yong",
+    "title": "树的应用",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "1. 并查集",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-shu-de-cun-chu",
+    "title": "树的存储结构",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "1. 双亲表示法",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-shu-de-bian-li",
+    "title": "树与森林",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "1. 树与二叉树的转换",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-shu-yu-er-cha-shu",
+    "title": "树与二叉树",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "1. 树的基本概念",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-zhe-ban-cha-ru-pai-xu",
+    "title": "折半插入排序",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "折半插入排序1 bis1.jpg",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-mao-pao-pai-xu",
+    "title": "冒泡排序",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "冒泡排序1 bs1.jpg",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-ji-shu-pai-xu",
+    "title": "基数排序",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "基数排序1 cs1.jpg",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-zhi-jie-cha-ru-pai-xu",
+    "title": "直接插入排序",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "直接插入排序1 dis1.jpg",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-wai-bu-pai-xu",
+    "title": "外部排序",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "外部排序1 es1.jpg",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-dui-pai-xu",
+    "title": "堆排序",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "堆排序1 hs1.jpg",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-gui-bing-pai-xu",
+    "title": "归并排序",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "归并排序1 ms1.jpg",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-kuai-su-pai-xu",
+    "title": "快速排序",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "快速排序1 qs1.jpg",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-xi-er-pai-xu",
+    "title": "希尔排序",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "希尔排序1 ss1.jpg",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-jian-dan-xuan-ze-pai-xu",
+    "title": "简单选择排序",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:39",
+    "summary": "简单选择排序1 sss1.jpg",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-shuang-lian-biao",
+    "title": "双链表",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:38",
+    "summary": "cpp",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-pai-xu",
+    "title": "排序",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:38",
+    "summary": "1. 基本概念",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-dan-lian-biao",
+    "title": "单链表",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:36",
+    "summary": "1. typedef 关键词",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-xian-xing-biao",
+    "title": "线性表",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:27",
+    "summary": "1. 定义",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-tu-de-ying-yong",
+    "title": "图的应用",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:27",
+    "summary": "1. 最小生成树",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-tu-de-gai-nian",
+    "title": "图的基本概念",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:27",
+    "summary": "1. 无向图 & 有向图",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-tu-de-cao-zuo",
+    "title": "图的基本操作",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:27",
+    "summary": "1. 边是否存在",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-tu-de-cun-chu",
+    "title": "图的存储结构",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:27",
+    "summary": "1. 邻接矩阵法",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-tu-de-bian-li",
+    "title": "图的遍历",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:27",
+    "summary": "1. 广度优先搜索",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-tu",
+    "title": "图",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:27",
+    "summary": "1. 基本概念 concept/README.md 图的基本概念",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-shu",
+    "title": "B+ 树",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:27",
+    "summary": "考研中对 B+ 树之考查定义；对 B 树既考察定义，也考察操作。",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-shu-7bb1b4",
+    "title": "B 树",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:27",
+    "summary": "B树1 b tree1.jpg",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-zhe-ban-cha-zhao",
+    "title": "折半查找",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:27",
+    "summary": "折半查找1 binary search1.jpg",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-fen-kuai-cha-zhao",
+    "title": "分块查找",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:27",
+    "summary": "分块查找1 block search1.jpg",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-san-lie-biao",
+    "title": "散列表",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:27",
+    "summary": "1. 基本概念",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-shun-xu-cha-zhao",
+    "title": "顺序查找",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:27",
+    "summary": "顺序查找1 sequential search1.jpg",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-cha-zhao",
+    "title": "查找",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:27",
+    "summary": "1. 基本概念",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-xun-huan-lian-biao",
+    "title": "循环链表",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:26",
+    "summary": "1. 循环单链表",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-shun-xu-biao",
+    "title": "顺序表",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:26",
+    "summary": "顺序表：用顺序存储方式实现的线性表。",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-jing-tai-lian-biao",
+    "title": "静态链表",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T02:26",
+    "summary": "1. 定义",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-chuan-a651d8",
+    "title": "第四章：串 (String)",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T01:43",
+    "summary": "1. 串的基本概念",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-tu-55f2b9",
+    "title": "第六章：图 (Graph)",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T01:41",
+    "summary": "1. 图的基本概念",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-shu-yu-er-cha-shu-7c3058",
+    "title": "第五章：树与二叉树 (Tree & Binary Tree)",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T01:39",
+    "summary": "1. 树的基本概念",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-cha-zhao-40539b",
+    "title": "第七章：查找 (Search)",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T01:34",
+    "summary": "1. 线性结构查找",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-pai-xu-228f33",
+    "title": "第八章：排序 (Sort)",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T01:30",
+    "summary": "1. 插入排序",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-xian-xing-biao-406259",
+    "title": "第二章：线性表",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T00:40",
+    "summary": "1. 线性表的定义",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-zhan-dui-lie-he-shu-zu",
+    "title": "第三章：栈、队列和数组",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-07T00:40",
+    "summary": "1. 栈 Stack",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-xu-lun",
+    "title": "第一章：绪论",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T21:34",
+    "summary": "1. 数据结构的基本概念",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-qi-mo-kao-shi-fu-xi-bi-ji",
+    "title": "Python 期末考试复习笔记",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "abstract 考试概况",
+    "hidden": false,
+    "category": "学业与考试"
+  },
+  {
+    "slug": "obsn-zhong-dian-xi-ti-ji",
+    "title": "Python快速编程入门(第三版) - 重点习题集",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "Python 编程/Python 习题",
+    "hidden": false,
+    "category": "学业与考试"
+  },
+  {
+    "slug": "obsn-ren-gong-zhi-neng-ming-ci-gai-nian",
+    "title": "📘 **机器学习基础知识点总结（来自前面问答）**",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "一、常见激活函数",
+    "hidden": false,
+    "category": "学业与考试/期末复习-人工智能"
+  },
+  {
+    "slug": "obsn-ren-gong-zhi-neng-ji-shu-ti-ku",
+    "title": "人工智能技术-题库",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "AI 深度学习 机器学习 期末复习",
+    "hidden": false,
+    "category": "学业与考试/期末复习-人工智能"
+  },
+  {
+    "slug": "obsn-shen-du-xue-xi-quan-jia-tong",
+    "title": "🧠 深度学习全家桶 · 知识图谱",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "0. 全局总图（可以放在笔记首页）",
+    "hidden": false,
+    "category": "学业与考试/考研数据结构"
+  },
+  {
+    "slug": "obsn-ren-gong-zhi-neng-qi-mo-fu-xi-bi-ji",
+    "title": "🎓 人工智能期末复习笔记",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "abstract 复习策略",
+    "hidden": false,
+    "category": "学业与考试/期末复习-人工智能"
+  },
+  {
+    "slug": "obsn-shen-du-xue-xi-quan-jia-tong-kao-dian-qiang-hua-ban",
+    "title": "🧠 深度学习全家桶 · 考点强化版",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "0. 🗺️ 全局总图与基础",
+    "hidden": false,
+    "category": "学业与考试/期末复习-人工智能"
+  },
+  {
+    "slug": "obsn-shen-du-xue-xi-quan-jia-tong-xiang-jie-ban",
+    "title": "🧠 深度学习全家桶 · 详解版",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "abstract 笔记说明",
+    "hidden": false,
+    "category": "学业与考试/期末复习-人工智能"
+  },
+  {
+    "slug": "obsn-qi-mo-fu-xi-ti",
+    "title": "Java期末复习题",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "第1章 Java开发入门",
+    "hidden": false,
+    "category": "学业与考试/期末复习-Java"
+  },
+  {
+    "slug": "obsn-ke-ben-cheng-xu-ti",
+    "title": "案例2-1 库房出入货物程序设计",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "案例介绍",
+    "hidden": false,
+    "category": "学业与考试"
+  },
+  {
+    "slug": "obsn-cheng-xu-she-ji-qi-mo-kao-shi-shi-ti-juan",
+    "title": "《Java程序设计》期末考试试题卷（A）",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "一、单项选择题（每小题2分，共10题共计20分）",
+    "hidden": false,
+    "category": "学业与考试/期末复习-Java"
+  },
+  {
+    "slug": "obsn-shu-ju-ku",
+    "title": "数据库",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "第一章 概述",
+    "hidden": false,
+    "category": "学业与考试"
+  },
+  {
+    "slug": "obsn-ma-yuan-qi-mo-kao-shi-gong-lve",
+    "title": "马原期末考试攻略",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "第一节（物质&意识、主观能动性&客观规律、运动&静止）",
+    "hidden": false,
+    "category": "学业与考试"
+  },
+  {
+    "slug": "obsn-xue-nian-qian-ru-shi-xi-tong-qi-mo-shi-juan",
+    "title": "洛阳理工学院 2024/2025 学年嵌入式系统期末试卷 (A)",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "info 考试信息",
+    "hidden": false,
+    "category": "学业与考试/期末复习-嵌入式"
+  },
+  {
+    "slug": "obsn-can-kao-da-an-yu-jie-xi",
+    "title": "参考答案与解析",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "一、选择题",
+    "hidden": false,
+    "category": "学业与考试/期末复习-嵌入式"
+  },
+  {
+    "slug": "obsn-qian-ru-shi-xi-tong-qi-zhong-kao-shi-shi-ti",
+    "title": "嵌入式系统 期中考试试题",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "洛阳理工学院 2025/2026 学年 第一学期 嵌入式系统 期中考试试题",
+    "hidden": false,
+    "category": "学业与考试/期末复习-嵌入式"
+  },
+  {
+    "slug": "obsn-qian-ru-shi-xi-tong-qi-mo-fu-xi-bi-ji",
+    "title": "嵌入式系统期末复习笔记",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "嵌入式 ARM 考试复习 微处理器",
+    "hidden": false,
+    "category": "学业与考试/期末复习-嵌入式"
+  },
+  {
+    "slug": "obsn-zhi-ling-ji-qi-han-yi",
+    "title": "指令及其含义",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "这是最基础且核心的部分，重点掌握 LDR , STR , MOV , ADD , B/BL 。",
+    "hidden": false,
+    "category": "学业与考试/期末复习-嵌入式"
+  },
+  {
+    "slug": "obsn-jian-da-ti",
+    "title": "简答题",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "嵌入式系统基础",
+    "hidden": false,
+    "category": "学业与考试/期末复习-嵌入式"
+  },
+  {
+    "slug": "obsn-wu-lian-wang-shi-bie-ji-shu-qi-mo-su-cheng-fu-xi-bi-ji",
+    "title": "《物联网识别技术》期末速成复习笔记",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "🛡️ 考前必读：试卷结构分析",
+    "hidden": false,
+    "category": "学业与考试/期末复习-嵌入式"
+  },
+  {
+    "slug": "obsn-wu-lian-wang-shi-bie-ji-shu-qi-mo-zhong-ji-fu-xi-zhi-nan",
+    "title": "📖 《物联网识别技术》期末终极复习指南",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "SUMMARY 考试策略",
+    "hidden": false,
+    "category": "学业与考试/期末复习-嵌入式"
+  },
+  {
+    "slug": "obsn-wu-lian-wang-tong-xin-qi-mo-fu-xi-zhi-nan",
+    "title": "物联网通信期末复习指南",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "info 复习策略",
+    "hidden": false,
+    "category": "学业与考试/期末复习-嵌入式"
+  },
+  {
+    "slug": "obsn-xin-xi-an-quan-qi-mo-fu-xi-bi-ji",
+    "title": "🛡️ 信息安全期末复习全景笔记 (地毯式梳理版)",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "abstract 复习策略",
+    "hidden": false,
+    "category": "学业与考试"
+  },
+  {
+    "slug": "obsn-wang-an-lun-shu-ti-da-an-can-kao",
+    "title": "网安论述题答案参考",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "1. 网络空间安全具有哪些特点？",
+    "hidden": false,
+    "category": "学业与考试"
+  },
+  {
+    "slug": "obsn-di-yi-jie-han-shu-yu-ji-xian",
+    "title": "第一节函数与极限",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "映射与函数",
+    "hidden": false,
+    "category": "学业与考试/考研数学"
+  },
+  {
+    "slug": "obsn-di-san-jie-yi-yuan-han-shu-wei-fen-xue",
+    "title": "第三节一元函数微分学",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "1. 导数",
+    "hidden": false,
+    "category": "学业与考试/考研数学"
+  },
+  {
+    "slug": "obsn-di-er-jie-shu-lie-ji-xian",
+    "title": "数列极限02",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "子数列",
+    "hidden": false,
+    "category": "学业与考试/考研数学"
+  },
+  {
+    "slug": "obsn-di-si-jie-yi-yuan-han-shu-wei-fen-xue-de-ying-yong",
+    "title": "一、基本求导公式",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "$ x^{\\alpha} ' = \\alpha x^{\\alpha 1} \\alpha \\text{为常数} $",
+    "hidden": false,
+    "category": "学业与考试/考研数学"
+  },
+  {
+    "slug": "obsn-xue-sheng-xue-ji-guan-li-xi-tong",
+    "title": "要求概述",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:56",
+    "summary": "系统以菜单的的方式工作",
+    "hidden": false,
+    "category": "项目与实践/项目文档"
+  },
+  {
+    "slug": "obsn-xiu-xian-mo-ni",
+    "title": "AI修仙模拟",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "请你扮演修仙模拟器与我进行文字游戏，我的第一步指令是：“创建自定义角色”；",
+    "hidden": false,
+    "category": "技术知识库/AI提示词"
+  },
+  {
+    "slug": "obsn-pao-tuan-zhi-ling",
+    "title": "跑团指令",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "期待你与我一起跑团，你来当dm，通过我的想象来推动故事的发展，我对你有以下几点要求：",
+    "hidden": false,
+    "category": "技术知识库/AI提示词"
+  },
+  {
+    "slug": "obsn-bu-shu-xiang-mu-dao-fu-wu-qi",
+    "title": "docker部署项目到服务器",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "项目简介：",
+    "hidden": false,
+    "category": "技术知识库/服务器部署"
+  },
+  {
+    "slug": "obsn-xiang-mu-bu-shu",
+    "title": "Fastapi项目部署",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "项目目录",
+    "hidden": false,
+    "category": "技术知识库/服务器部署"
+  },
+  {
+    "slug": "obsn-chao-ji-jiao-cheng-ban",
+    "title": "什么是 Markdown?",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "1. Markdown 是一款轻量级标记语言，不同于HTML Hypertext Markup Language Markdown 的语法非常简单，且容易上手",
+    "hidden": false,
+    "category": "技术知识库/通用"
+  },
+  {
+    "slug": "obsn-fu-wu-qi-ge-ren-bo-ke-zhu-ti-mei-hua",
+    "title": "ClawCloud服务器+WordPress个人博客+Argon主题美化",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "「ClawCloud Run」推出了注册 180 天以上的 GitHub 账号终身每月免费送$5 美金额度的福利活动，而 WordPress $ 0.06/Day ，相当于是永久免费的个人博客了。",
+    "hidden": false,
+    "category": "技术知识库/服务器部署"
+  },
+  {
+    "slug": "obsn-bu-shu-xiang-mu-dao-fu-wu-qi-a5b5b5",
+    "title": "docker部署项目到服务器",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "项目简介：",
+    "hidden": false,
+    "category": "技术知识库/服务器部署"
+  },
+  {
+    "slug": "obsn-xiang-mu-bu-shu-d10757",
+    "title": "Fastapi项目部署",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "项目目录",
+    "hidden": false,
+    "category": "技术知识库/服务器部署"
+  },
+  {
+    "slug": "obsn-xin-an-zhuang-xiao-ya",
+    "title": "【新】安装小雅Alist",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "使用一键安装脚本",
+    "hidden": false,
+    "category": "技术知识库/树莓派"
+  },
+  {
+    "slug": "obsn-an-zhuang-xiao-ya",
+    "title": "安装小雅Alist",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "注意：安装小雅Alist之前需要先安装Alist。",
+    "hidden": false,
+    "category": "技术知识库/树莓派"
+  },
+  {
+    "slug": "obsn-da-jian-ge-ren-bo-ke-wang-zhan",
+    "title": "安装WordPress",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "打卡宝塔 软件商店 一键部署 WordPress",
+    "hidden": false,
+    "category": "技术知识库/树莓派"
+  },
+  {
+    "slug": "obsn-shu-mei-pai-an-zhuang-bao-ta-mian-ban",
+    "title": "树莓派安装宝塔面板",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "注意： 安装之前需保证系统纯净，并且不要进行换源",
+    "hidden": false,
+    "category": "技术知识库/树莓派"
+  },
+  {
+    "slug": "obsn-shu-mei-pai-wu-xian-shi-qi-jin-xing-lian-jie",
+    "title": "系统烧录",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "1.使用官方镜像烧录工具",
+    "hidden": false,
+    "category": "技术知识库/树莓派"
+  },
+  {
+    "slug": "obsn-cha-jian-an-zhuang-zhi-nan",
+    "title": "OpenCode 插件安装指南",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "简介",
+    "hidden": false,
+    "category": "技术知识库/环境配置"
+  },
+  {
+    "slug": "obsn-yun-xing-tiao-shi-pei-zhi",
+    "title": "VsCode调试注意",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "要调试的代码路径不能有中文，否则会报错。",
+    "hidden": false,
+    "category": "技术知识库/环境配置"
+  },
+  {
+    "slug": "obsn-xia-an-zhuang-bing-shi-yong-bian-xie-yu-yan-cheng-xu",
+    "title": "前言",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "由于课程 Linux C需要，需要在 Linux 系统下运行C 语言程序，在老师的建议下使用wsl 在window 系统下运行 Ubuntu 系统，同时为了方便代码的编写将使用VS code 进行代码编写。",
+    "hidden": false,
+    "category": "技术知识库/环境配置"
+  },
+  {
+    "slug": "obsn-hou-duan",
+    "title": "Java后端",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "开发工具建议使用IDEA专业版",
+    "hidden": false,
+    "category": "项目与实践/项目文档"
+  },
+  {
+    "slug": "obsn-qian-duan",
+    "title": "Vue前端",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "开发工具建议使用VsCode",
+    "hidden": false,
+    "category": "项目与实践/项目文档"
+  },
+  {
+    "slug": "obsn-jie-kou-diao-yong-shuo-ming",
+    "title": "接口调用说明",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "1. UserController.java",
+    "hidden": false,
+    "category": "项目与实践/项目文档"
+  },
+  {
+    "slug": "obsn-fu-wu-qi-bu-shu",
+    "title": "一、前期准备",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "1. 申请一个服务器",
+    "hidden": false,
+    "category": "项目与实践/项目文档"
+  },
+  {
+    "slug": "obsn-xue-sheng-guan-li-xi-tong-xiang-mu-shuo-ming-wen-dang",
+    "title": "学生管理系统项目说明文档",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "项目概述",
+    "hidden": false,
+    "category": "项目与实践/项目文档"
+  },
+  {
+    "slug": "obsn-su-she-dian-liang-jian-kong-xi-tong-shuo-ming",
+    "title": "宿舍电量监控系统说明",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "Cookie手动获取教程",
+    "hidden": false,
+    "category": "项目与实践/项目文档"
+  },
+  {
+    "slug": "obsn-note",
+    "title": "README",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "本机 VS Code 端",
+    "hidden": false,
+    "category": "项目与实践/项目文档"
+  },
+  {
+    "slug": "obsn-fen-gong",
+    "title": "分工",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "🟢 第一部分：硬件感知 传感器读取",
+    "hidden": false,
+    "category": "项目与实践/项目文档"
+  },
+  {
+    "slug": "obsn-zhi-neng-jia-ju-wu-lian-wang-xi-tong-xiang-mu-shuo-ming-wen-dang",
+    "title": "智能家居物联网系统 - 项目说明文档",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2026-02-06T00:38",
+    "summary": "📋 项目概述",
+    "hidden": false,
+    "category": "学业与考试/期末复习-嵌入式"
+  },
+  {
+    "slug": "obsn-xing-qi-liu-6aba82",
+    "title": "2025-08-02-星期六",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-08-02T23:13",
+    "summary": "quote 🎯 今日箴言",
+    "hidden": false,
+    "category": "日志/日记"
+  },
+  {
+    "slug": "obsn-xing-qi-san-62ea95",
+    "title": "2025-07-30-星期三",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-30T23:44",
+    "summary": "quote 🎯 今日箴言",
+    "hidden": false,
+    "category": "日志/日记"
+  },
+  {
+    "slug": "obsn-xing-qi-er-ca7a87",
+    "title": "2025-07-29-星期二",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-30T23:43",
+    "summary": "quote 🎯 今日箴言",
+    "hidden": false,
+    "category": "日志/日记"
+  },
+  {
+    "slug": "obsn-xing-qi-si-1a3e7c",
+    "title": "2025-07-31-星期四",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-30T23:43",
+    "summary": "quote 🎯 今日箴言",
+    "hidden": false,
+    "category": "日志/日记"
+  },
+  {
+    "slug": "obsn-xing-qi-wu-fe56e5",
+    "title": "2025-07-25-星期五",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-26T22:45",
+    "summary": "quote 🎯 今日箴言",
+    "hidden": false,
+    "category": "日志/日记"
+  },
+  {
+    "slug": "obsn-xing-qi-liu-686253",
+    "title": "2025-07-26-星期六",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-26T22:45",
+    "summary": "quote 🎯 今日箴言",
+    "hidden": false,
+    "category": "日志/日记"
+  },
+  {
+    "slug": "obsn-note-31d286",
+    "title": "2025-W30",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-24T23:08",
+    "summary": "// 从当前周记文件名中提取周数信息",
+    "hidden": false,
+    "category": "日志/周复盘"
+  },
+  {
+    "slug": "obsn-note-d971d2",
+    "title": "2025-W29",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-24T23:07",
+    "summary": "// 从当前周记文件名中提取周数信息",
+    "hidden": false,
+    "category": "日志/周复盘"
+  },
+  {
+    "slug": "obsn-xing-qi-yi",
+    "title": "2025-07-14-星期一",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-24T23:07",
+    "summary": "quote 一言",
+    "hidden": false,
+    "category": "日志/日记"
+  },
+  {
+    "slug": "obsn-note-d02ea2",
+    "title": "2025-W28",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-24T23:06",
+    "summary": "// 从当前周记文件名中提取周数信息",
+    "hidden": false,
+    "category": "日志/周复盘"
+  },
+  {
+    "slug": "obsn-xing-qi-liu",
+    "title": "2025-07-12-星期六",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-24T23:05",
+    "summary": "quote 一言",
+    "hidden": false,
+    "category": "日志/日记"
+  },
+  {
+    "slug": "obsn-xing-qi-ri",
+    "title": "2025-07-13-星期日",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-24T23:05",
+    "summary": "quote 一言",
+    "hidden": false,
+    "category": "日志/日记"
+  },
+  {
+    "slug": "obsn-xing-qi-er",
+    "title": "2025-07-15-星期二",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-24T23:04",
+    "summary": "quote 一言",
+    "hidden": false,
+    "category": "日志/日记"
+  },
+  {
+    "slug": "obsn-xing-qi-si-5a64dc",
+    "title": "2025-07-24-星期四",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-24T23:00",
+    "summary": "quote 🎯 今日箴言",
+    "hidden": false,
+    "category": "日志/日记"
+  },
+  {
+    "slug": "obsn-xing-qi-san-63f4cb",
+    "title": "2025-07-23-星期三",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-23T22:50",
+    "summary": "quote 🎯 今日箴言",
+    "hidden": false,
+    "category": "日志/日记"
+  },
+  {
+    "slug": "obsn-xing-qi-yi-0e7555",
+    "title": "2025-07-21-星期一",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-23T00:00",
+    "summary": "quote 🎯 今日箴言",
+    "hidden": false,
+    "category": "日志/日记"
+  },
+  {
+    "slug": "obsn-xing-qi-er-276127",
+    "title": "2025-07-22-星期二",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-22T23:59",
+    "summary": "quote 🎯 今日箴言",
+    "hidden": false,
+    "category": "日志/日记"
+  },
+  {
+    "slug": "obsn-xing-qi-ri-c66712",
+    "title": "2025-07-20-星期日",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-21T00:04",
+    "summary": "quote 🎯 今日箴言",
+    "hidden": false,
+    "category": "日志/日记"
+  },
+  {
+    "slug": "obsn-xing-qi-liu-bc8c6f",
+    "title": "2025-07-19-星期六",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-21T00:03",
+    "summary": "quote 🎯 今日箴言",
+    "hidden": false,
+    "category": "日志/日记"
+  },
+  {
+    "slug": "obsn-xing-qi-san",
+    "title": "2025-07-16-星期三",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-19T00:44",
+    "summary": "quote 🎯 今日箴言",
+    "hidden": false,
+    "category": "日志/日记"
+  },
+  {
+    "slug": "obsn-xing-qi-wu",
+    "title": "2025-07-18-星期五",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-18T23:08",
+    "summary": "quote 🎯 今日箴言",
+    "hidden": false,
+    "category": "日志/日记"
+  },
+  {
+    "slug": "obsn-xing-qi-si",
+    "title": "2025-07-17-星期四",
+    "tags": [
+      "obsidian"
+    ],
+    "date": "2025-07-18T00:45",
+    "summary": "quote 🎯 今日箴言",
+    "hidden": false,
+    "category": "日志/日记"
+  }
 ]
