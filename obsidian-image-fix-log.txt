@@ -1,0 +1,118 @@
+================================================================================
+Obsidian Missing Image Fixer - Log file: obsidian-image-fix-log.txt
+================================================================================
+Found 10 missing references
+
+Step 1: Searching for attachment directories...
+  Found: 10-?????\??\attachments
+  Found: 10-?????\??????\????\attachments
+  Found: 10-?????\??????\???\attachments
+  Found: 10-?????\??\??\attachments
+  Found: 20-?????\???\attachments
+  Found: 20-?????\????\attachments
+  Found: 30-?????\????\????????\attachments
+  Found: 30-?????\????\????????\attachments
+
+Found 8 attachment directories
+
+Step 2: Processing images...
+
+[1/10]
+  Article: obsn-fu-wu-qi-ge-ren-bo-ke-zhu-ti-mei-hua
+  Source: 20-?????/???/ClawCloud???+WordPress????+Argon????.md
+  Type: md
+  Reference: attachments/Pasted%20image%2020250502182845.png
+  Looking for: Pasted image 20250502182845.png
+  FAILED: Not found: Pasted image 20250502182845.png
+
+[2/10]
+  Article: obsn-fu-wu-qi-ge-ren-bo-ke-zhu-ti-mei-hua
+  Source: 20-?????/???/ClawCloud???+WordPress????+Argon????.md
+  Type: md
+  Reference: attachments/Pasted%20image%2020250502183227.png
+  Looking for: Pasted image 20250502183227.png
+  FAILED: Not found: Pasted image 20250502183227.png
+
+[3/10]
+  Article: obsn-fu-wu-qi-ge-ren-bo-ke-zhu-ti-mei-hua
+  Source: 20-?????/???/ClawCloud???+WordPress????+Argon????.md
+  Type: md
+  Reference: attachments/Pasted%20image%2020250502183422.png
+  Looking for: Pasted image 20250502183422.png
+  FAILED: Not found: Pasted image 20250502183422.png
+
+[4/10]
+  Article: obsn-fu-wu-qi-ge-ren-bo-ke-zhu-ti-mei-hua
+  Source: 20-?????/???/ClawCloud???+WordPress????+Argon????.md
+  Type: md
+  Reference: attachments/Pasted%20image%2020250502183520.png
+  Looking for: Pasted image 20250502183520.png
+  FAILED: Not found: Pasted image 20250502183520.png
+
+[5/10]
+  Article: obsn-fu-wu-qi-ge-ren-bo-ke-zhu-ti-mei-hua
+  Source: 20-?????/???/ClawCloud???+WordPress????+Argon????.md
+  Type: md
+  Reference: attachments/Pasted%20image%2020250502184855.png
+  Looking for: Pasted image 20250502184855.png
+  FAILED: Not found: Pasted image 20250502184855.png
+
+[6/10]
+  Article: obsn-fu-wu-qi-ge-ren-bo-ke-zhu-ti-mei-hua
+  Source: 20-?????/???/ClawCloud???+WordPress????+Argon????.md
+  Type: md
+  Reference: attachments/Pasted%20image%2020250502185443.png
+  Looking for: Pasted image 20250502185443.png
+  FAILED: Not found: Pasted image 20250502185443.png
+
+[7/10]
+  Article: obsn-fu-wu-qi-ge-ren-bo-ke-zhu-ti-mei-hua
+  Source: 20-?????/???/ClawCloud???+WordPress????+Argon????.md
+  Type: md
+  Reference: attachments/Pasted%20image%2020250502185612.png
+  Looking for: Pasted image 20250502185612.png
+  FAILED: Not found: Pasted image 20250502185612.png
+
+[8/10]
+  Article: obsn-fu-wu-qi-ge-ren-bo-ke-zhu-ti-mei-hua
+  Source: 20-?????/???/ClawCloud???+WordPress????+Argon????.md
+  Type: md
+  Reference: attachments/Pasted%20image%2020250502201838.png
+  Looking for: Pasted image 20250502201838.png
+  FAILED: Not found: Pasted image 20250502201838.png
+
+[9/10]
+  Article: obsn-ren-gong-zhi-neng-ji-shu-ti-ku
+  Source: 10-?????/??????/????/??????-??.md
+  Type: wiki
+  Reference: ? ??????????#B. ??? (Pooling)
+  SKIPPED: Unsupported wiki reference
+
+[10/10]
+  Article: obsn-xue-nian-qian-ru-shi-xi-tong-qi-mo-shi-juan
+  Source: 10-?????/??????/???/2024-2025???????????(A).md
+  Type: wiki
+  Reference: attachments/Pasted image 20251223232139.png
+  Looking for: Pasted image 20251223232139.png
+  FAILED: Not found: Pasted image 20251223232139.png
+
+================================================================================
+Summary: Total=10, Found=0, Copied=0
+================================================================================
+
+Detailed log saved to: obsidian-image-fix-log.txt
+eference
+
+[10/10]
+  Article: obsn-xue-nian-qian-ru-shi-xi-tong-qi-mo-shi-juan
+  Source: 10-学业与考试/期末复习资料/嵌入式/2024-2025学年嵌入式系统期末试卷(A).md
+  Type: wiki
+  Reference: attachments/Pasted image 20251223232139.png
+  Looking for: Pasted image 20251223232139.png
+  FAILED: Not found: Pasted image 20251223232139.png
+
+================================================================================
+Summary: Total=10, Found=0, Copied=0
+================================================================================
+
+Detailed log saved to: obsidian-image-fix-log.txt
