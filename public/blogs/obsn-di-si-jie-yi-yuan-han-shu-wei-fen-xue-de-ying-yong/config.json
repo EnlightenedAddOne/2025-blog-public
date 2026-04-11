@@ -1,8 +1,11 @@
 {
 	"title": "一、基本求导公式",
-	"tags": ["obsidian"],
+	"tags": [
+		"基本求导公式",
+		"考研数学"
+	],
 	"date": "2026-02-06T00:56",
-	"summary": "$ x^{\\alpha} ' = \\alpha x^{\\alpha 1} \\alpha \\text{为常数} $",
+	"summary": "$(x^{\\alpha})' = \\alpha x^{\\alpha-1} (\\alpha \\text…",
 	"hidden": false,
-	"category": "学业与考试/考研数学"
+	"category": "考研数学"
 }

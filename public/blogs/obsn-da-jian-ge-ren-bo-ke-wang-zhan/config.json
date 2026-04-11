@@ -1,8 +1,12 @@
 {
 	"title": "安装WordPress",
-	"tags": ["obsidian"],
+	"tags": [
+		"安装",
+		"安装博客主题",
+		"博客主题推荐"
+	],
 	"date": "2026-02-06T00:38",
-	"summary": "打卡宝塔 软件商店 一键部署 WordPress",
+	"summary": "打卡宝塔-->软件商店-->一键部署-->WordPress",
 	"hidden": false,
-	"category": "技术知识库/树莓派"
+	"category": "树莓派"
 }

@@ -1,8 +1,12 @@
 {
 	"title": "图的基本概念",
-	"tags": ["obsidian"],
+	"tags": [
+		"图的基本概念",
+		"无向图",
+		"有向图"
+	],
 	"date": "2026-02-07T02:27",
-	"summary": "1. 无向图 & 有向图",
+	"summary": "无向完全图",
 	"hidden": false,
-	"category": "学业与考试/考研数据结构"
+	"category": "考研数据结构"
 }

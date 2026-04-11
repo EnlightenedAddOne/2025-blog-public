@@ -1,8 +1,12 @@
 {
 	"title": "单链表",
-	"tags": ["obsidian"],
+	"tags": [
+		"单链表",
+		"关键词",
+		"定义单链表"
+	],
 	"date": "2026-02-07T02:36",
-	"summary": "1. typedef 关键词",
+	"summary": "关键字：数据类型重命名",
 	"hidden": false,
-	"category": "学业与考试/考研数据结构"
+	"category": "考研数据结构"
 }

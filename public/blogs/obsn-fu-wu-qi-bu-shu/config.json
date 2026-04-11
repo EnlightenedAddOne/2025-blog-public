@@ -1,8 +1,12 @@
 {
 	"title": "一、前期准备",
-	"tags": ["obsidian"],
+	"tags": [
+		"前期准备",
+		"后端配置",
+		"前端配置"
+	],
 	"date": "2026-02-06T00:38",
-	"summary": "1. 申请一个服务器",
+	"summary": "以腾讯云服务器为例",
 	"hidden": false,
-	"category": "项目与实践/项目文档"
+	"category": "项目文档"
 }

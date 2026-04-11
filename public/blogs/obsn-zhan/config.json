@@ -1,8 +1,12 @@
 {
 	"title": "栈",
-	"tags": ["obsidian"],
+	"tags": [
+		"顺序栈",
+		"定义",
+		"define"
+	],
 	"date": "2026-02-07T02:39",
-	"summary": "1. 顺序栈",
+	"summary": "用顺序存储方式实现的栈",
 	"hidden": false,
-	"category": "学业与考试/考研数据结构"
+	"category": "考研数据结构"
 }

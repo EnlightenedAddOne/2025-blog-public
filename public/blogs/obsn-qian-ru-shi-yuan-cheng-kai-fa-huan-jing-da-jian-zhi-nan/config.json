@@ -1,8 +1,12 @@
 {
 	"title": "VS Code 嵌入式 Linux 远程开发指南 (SFTP + Makefile 方案)",
-	"tags": ["obsidian"],
+	"tags": [
+		"VS",
+		"Code",
+		"嵌入式"
+	],
 	"date": "2026-02-19T12:24",
-	"summary": "适用硬件：STM32MP157 开发板 FSMP1A 或其他 Linux 开发板",
+	"summary": "适用硬件：STM32MP157 开发板 (FSMP1A) 或其他 Linux 开发板",
 	"hidden": false,
-	"category": "学业与考试/期末复习-嵌入式"
+	"category": "期末复习-嵌入式"
 }

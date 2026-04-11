@@ -1,8 +1,12 @@
 {
 	"title": "栈的应用",
-	"tags": ["obsidian"],
+	"tags": [
+		"栈的应用",
+		"括号匹配",
+		"表达式求值"
+	],
 	"date": "2026-02-07T02:39",
-	"summary": "1. 括号匹配",
+	"summary": "最后出现的左括号最先被匹配（后进先出，LIFO）",
 	"hidden": false,
-	"category": "学业与考试/考研数据结构"
+	"category": "考研数据结构"
 }

@@ -1,8 +1,12 @@
 {
 	"title": "王道考研 数据结构",
-	"tags": ["obsidian"],
+	"tags": [
+		"王道考研",
+		"数据结构",
+		"绪论"
+	],
 	"date": "2026-02-07T02:42",
-	"summary": "info 课程信息",
+	"summary": "数据",
 	"hidden": false,
-	"category": "学业与考试/考研数据结构"
+	"category": "考研数据结构"
 }

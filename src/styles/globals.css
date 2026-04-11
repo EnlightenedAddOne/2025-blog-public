@@ -12,6 +12,30 @@
 	}
 }
 
+/* 自定义滚动条样式 */
+.scrollbar-custom {
+	scrollbar-width: thin;
+	scrollbar-color: rgba(0, 0, 0, 0.15) transparent;
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+
+.scrollbar-custom:hover::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
 @layer base {
 	html {
 		@apply text-primary bg-bg h-full leading-tight;
@@ -75,13 +99,6 @@
 		background: var(--color-brand);
 		border: 2px solid white;
 		box-shadow: 0 5px 12px color-mix(in srgb, var(--color-brand) 50%, transparent);
-	}
-
-	.windows {
-		@apply scrollbar-none;
-		* {
-			@apply scrollbar-none;
-		}
 	}
 
 	/* Sonner Toaster styles */

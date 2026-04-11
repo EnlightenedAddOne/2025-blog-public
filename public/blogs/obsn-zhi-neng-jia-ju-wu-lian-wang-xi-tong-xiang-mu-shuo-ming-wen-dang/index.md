@@ -317,7 +317,7 @@ mosquitto_pub -h mqtt.yyzlab.com.cn -p 1883 \
   -t "YOUR_ID/AIOTSIM2APP" \
   -m '{"lamp":true,"id":0}'
 
-# 启动风扇
+# 启动风扇（重复2）
 mosquitto_pub -h mqtt.yyzlab.com.cn -p 1883 \
   -t "YOUR_ID/AIOTSIM2APP" \
   -m '{"fan":true,"id":0}'

@@ -1,8 +1,11 @@
 {
 	"title": "分块查找",
-	"tags": ["obsidian"],
+	"tags": [
+		"分块查找",
+		"考研数据结构"
+	],
 	"date": "2026-02-07T02:27",
-	"summary": "分块查找1 block search1.jpg",
+	"summary": "分块查找",
 	"hidden": false,
-	"category": "学业与考试/考研数据结构"
+	"category": "考研数据结构"
 }

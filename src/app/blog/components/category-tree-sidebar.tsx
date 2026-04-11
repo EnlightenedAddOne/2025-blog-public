@@ -19,9 +19,9 @@ export function CategoryTreeSidebar({ categories, counts, activeCategory, onSele
 		onSelect(category)
 	}
 
-	// 只显示有文章的分类，并按数量排序
+	// 只显示有文章的分类，保持与主列表一致的顺序
 	const visibleCategories = useMemo(() => {
-		return categories.filter(cat => (counts[cat] ?? 0) > 0).sort((a, b) => (counts[b] ?? 0) - (counts[a] ?? 0))
+		return categories.filter(cat => (counts[cat] ?? 0) > 0)
 	}, [categories, counts])
 
 	return (

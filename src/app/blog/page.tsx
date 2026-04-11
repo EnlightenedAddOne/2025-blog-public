@@ -376,7 +376,7 @@ export default function BlogPage() {
 				}}
 			/>
 
-			<div className='px-6 pt-24 pb-8 max-sm:pt-24'>
+			<div className='px-6 pt-24 pb-[50vh] max-sm:pt-24'>
 				<div className='mx-auto mb-8 flex max-w-[1200px] flex-col items-center justify-center gap-4 px-4 sm:relative sm:flex-row'>
 					{items.length > 0 && (
 						<motion.div

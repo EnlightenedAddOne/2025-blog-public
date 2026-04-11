@@ -1,8 +1,11 @@
 {
 	"title": "第三节一元函数微分学",
-	"tags": ["obsidian"],
+	"tags": [
+		"导数",
+		"增量的广义化"
+	],
 	"date": "2026-02-06T00:56",
-	"summary": "1. 导数",
+	"summary": "设 $y = f(x)$ 定义在区间 $I$ 上，让自变量在 $x = x_0$ 处加一个增量 $\\…",
 	"hidden": false,
-	"category": "学业与考试/考研数学"
+	"category": "考研数学"
 }

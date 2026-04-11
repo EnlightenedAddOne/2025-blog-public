@@ -44,10 +44,10 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
 				<script
 					dangerouslySetInnerHTML={{
 						__html: `
-					if (/windows|win32/i.test(navigator.userAgent)) {
-						document.documentElement.classList.add('windows');
-					}
-		      `
+						if (/windows|win32/i.test(navigator.userAgent)) {
+							document.documentElement.classList.add('windows', 'scrollbar-custom');
+						}
+			      `
 					}}
 				/>
 

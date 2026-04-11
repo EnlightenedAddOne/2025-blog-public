@@ -1,8 +1,12 @@
 {
 	"title": "Java后端",
-	"tags": ["obsidian"],
+	"tags": [
+		"Java后端",
+		"后端",
+		"Java"
+	],
 	"date": "2026-02-06T00:38",
 	"summary": "开发工具建议使用IDEA专业版",
 	"hidden": false,
-	"category": "项目与实践/项目文档"
+	"category": "项目文档"
 }

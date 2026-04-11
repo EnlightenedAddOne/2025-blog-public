@@ -112,7 +112,7 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 
 ### 2.前端
 
-#### Dockerfile
+#### Dockerfile（重复2）
 
 ```Dockerfile
 # 直接使用 nginx 提供静态文件服务

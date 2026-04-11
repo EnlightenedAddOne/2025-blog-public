@@ -1,8 +1,12 @@
 {
 	"title": "VsCode调试注意",
-	"tags": ["obsidian"],
+	"tags": [
+		"调试注意",
+		"VsCode",
+		"下载的插件"
+	],
 	"date": "2026-02-06T00:38",
-	"summary": "要调试的代码路径不能有中文，否则会报错。",
+	"summary": "要调试的代码路径不能有中文，否则会报错",
 	"hidden": false,
-	"category": "技术知识库/环境配置"
+	"category": "环境配置"
 }

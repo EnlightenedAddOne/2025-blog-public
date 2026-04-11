@@ -1,8 +1,11 @@
 {
 	"title": "简答题",
-	"tags": ["obsidian"],
+	"tags": [
+		"简答题",
+		"及其特点"
+	],
 	"date": "2026-02-06T00:56",
-	"summary": "嵌入式系统基础",
+	"summary": "答：**",
 	"hidden": false,
-	"category": "学业与考试/期末复习-嵌入式"
+	"category": "期末复习-嵌入式"
 }

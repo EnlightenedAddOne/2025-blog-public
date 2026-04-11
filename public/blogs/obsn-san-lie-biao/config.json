@@ -1,8 +1,12 @@
 {
 	"title": "散列表",
-	"tags": ["obsidian"],
+	"tags": [
+		"散列表",
+		"基本概念",
+		"散列函数"
+	],
 	"date": "2026-02-07T02:27",
-	"summary": "1. 基本概念",
+	"summary": "散列表",
 	"hidden": false,
-	"category": "学业与考试/考研数据结构"
+	"category": "考研数据结构"
 }

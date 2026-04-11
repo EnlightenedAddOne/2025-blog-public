@@ -1,8 +1,12 @@
 {
 	"title": "双链表",
-	"tags": ["obsidian"],
+	"tags": [
+		"双链表",
+		"初始化",
+		"插入"
+	],
 	"date": "2026-02-07T02:38",
-	"summary": "cpp",
+	"summary": "双链表不可随机存取，按位查找、按值查找都只能用遍历的方式实现",
 	"hidden": false,
-	"category": "学业与考试/考研数据结构"
+	"category": "考研数据结构"
 }

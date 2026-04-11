@@ -1,8 +1,12 @@
 {
 	"title": "OpenWrt 预防校园网多设备检测配置指南",
-	"tags": ["obsidian"],
+	"tags": [
+		"统一",
+		"TTL",
+		"基础且核心"
+	],
 	"date": "2026-03-22T15:46",
-	"summary": "info 原理概述",
+	"summary": "不同操作系统发出的数据包初始 TTL 不同，且每经过一个路由器 TTL 会减 1",
 	"hidden": false,
-	"category": "技术知识库/通用"
+	"category": "通用"
 }

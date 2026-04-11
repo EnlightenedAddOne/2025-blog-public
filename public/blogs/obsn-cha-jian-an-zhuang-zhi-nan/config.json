@@ -1,8 +1,12 @@
 {
 	"title": "OpenCode 插件安装指南",
-	"tags": ["obsidian"],
+	"tags": [
+		"插件安装指南",
+		"环境要求",
+		"安装"
+	],
 	"date": "2026-02-06T00:38",
-	"summary": "简介",
+	"summary": "OpenCode 是一个 AI 助手插件，可以直接在 Obsidian 的侧边栏中嵌入使用，为你的笔…",
 	"hidden": false,
-	"category": "技术知识库/环境配置"
+	"category": "环境配置"
 }

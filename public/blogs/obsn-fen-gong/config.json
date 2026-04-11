@@ -1,8 +1,12 @@
 {
 	"title": "分工",
-	"tags": ["obsidian"],
+	"tags": [
+		"分工",
+		"第一部分",
+		"硬件感知"
+	],
 	"date": "2026-02-06T00:38",
-	"summary": "🟢 第一部分：硬件感知 传感器读取",
+	"summary": "涉及文件： tah",
 	"hidden": false,
-	"category": "项目与实践/项目文档"
+	"category": "项目文档"
 }

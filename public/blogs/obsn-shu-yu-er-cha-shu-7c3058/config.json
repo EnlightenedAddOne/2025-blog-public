@@ -1,8 +1,12 @@
 {
 	"title": "第五章：树与二叉树 (Tree & Binary Tree)",
-	"tags": ["obsidian"],
+	"tags": [
+		"第五章",
+		"树与二叉树",
+		"Tree"
+	],
 	"date": "2026-02-07T01:39",
-	"summary": "1. 树的基本概念",
+	"summary": "对应视频：、",
 	"hidden": false,
-	"category": "学业与考试/考研数据结构"
+	"category": "考研数据结构"
 }

@@ -1,8 +1,12 @@
 {
 	"title": "什么是 Markdown?",
-	"tags": ["obsidian"],
+	"tags": [
+		"什么是",
+		"为什么要使用",
+		"相关软件推荐"
+	],
 	"date": "2026-02-06T00:38",
-	"summary": "1. Markdown 是一款轻量级标记语言，不同于HTML Hypertext Markup Language Markdown 的语法非常简单，且容易上手",
+	"summary": "1",
 	"hidden": false,
-	"category": "技术知识库/通用"
+	"category": "通用"
 }

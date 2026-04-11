@@ -1,8 +1,12 @@
 {
 	"title": "二叉树",
-	"tags": ["obsidian"],
+	"tags": [
+		"二叉树",
+		"五种基本形态",
+		"VS"
+	],
 	"date": "2026-02-07T02:39",
-	"summary": "二叉树是 $n（n \\geq 0）$ 个结点的有限集合。",
+	"summary": "二叉树是 $n（n \\geq 0）$ 个结点的有限集合",
 	"hidden": false,
-	"category": "学业与考试/考研数据结构"
+	"category": "考研数据结构"
 }

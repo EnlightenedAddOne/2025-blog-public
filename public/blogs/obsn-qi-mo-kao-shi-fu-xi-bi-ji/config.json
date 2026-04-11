@@ -1,8 +1,12 @@
 {
 	"title": "Python 期末考试复习笔记",
-	"tags": ["obsidian"],
+	"tags": [
+		"Python",
+		"第一部分",
+		"核心重点突破"
+	],
 	"date": "2026-02-06T00:56",
-	"summary": "abstract 考试概况",
+	"summary": "**break 与 continue 的区别**",
 	"hidden": false,
 	"category": "学业与考试"
 }

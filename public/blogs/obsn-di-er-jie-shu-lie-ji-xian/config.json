@@ -1,8 +1,12 @@
 {
 	"title": "数列极限02",
-	"tags": ["obsidian"],
+	"tags": [
+		"数列极限02",
+		"数列极限",
+		"子数列"
+	],
 	"date": "2026-02-06T00:56",
-	"summary": "子数列",
+	"summary": "从数列 $\\{a_n\\}$: $a_1$, $a_2$,",
 	"hidden": false,
-	"category": "学业与考试/考研数学"
+	"category": "考研数学"
 }

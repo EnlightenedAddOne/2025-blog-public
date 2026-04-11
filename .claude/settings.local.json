@@ -6,7 +6,9 @@
       "Bash(python:*)",
       "Read(//d/PROJECT/Markdown/Obsidian/10-学业与考试/期末复习资料/人工智能/attachments//**)",
       "Bash(tee obsidian-image-fix-log.txt)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(node -e ':*)",
+      "Bash(npm run:*)"
     ]
   }
 }

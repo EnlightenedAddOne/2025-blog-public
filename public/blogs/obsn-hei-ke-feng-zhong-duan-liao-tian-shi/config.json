@@ -1,8 +1,12 @@
 {
 	"title": "hacker-chat",
-	"tags": ["obsidian"],
+	"tags": [
+		"项目结构",
+		"🛠️",
+		"技术栈"
+	],
 	"date": "2026-03-02T15:41",
-	"summary": "text",
+	"summary": "一个基于 + + 的终端黑客风聊天室",
 	"hidden": false,
-	"category": "项目与实践/项目文档"
+	"category": "项目文档"
 }

@@ -5,22 +5,19 @@
 		"username": "Addone"
 	},
 	"theme": {
-		"colorBrand": "#35bfab",
-		"colorPrimary": "#334f52",
-		"colorSecondary": "#7b888e",
-		"colorBrandSecondary": "#1fc9e7",
-		"colorBg": "#eeeeee",
+		"colorBrand": "#2fcbe7",
+		"colorPrimary": "#5B423F",
+		"colorSecondary": "#8b7667",
+		"colorBrandSecondary": "#eec25e",
+		"colorBg": "#d4e8f3",
 		"colorBorder": "#ffffff",
-		"colorCard": "#ffffff66",
+		"colorCard": "#ffffff99",
 		"colorArticle": "#ffffffcc"
 	},
 	"backgroundColors": [
-		"#EDDD62",
-		"#9EE7D1",
-		"#84D68A",
-		"#EDDD62",
-		"#88E6E5",
-		"#a7f3d0"
+		"#f7da3987",
+		"#8fdbe9",
+		"#fffef8"
 	],
 	"artImages": [
 		{
@@ -28,11 +25,15 @@
 			"url": "/images/art/cat.png"
 		},
 		{
+			"id": "blue-sky",
+			"url": "/images/art/蓝天白云.jpg"
+		},
+		{
 			"id": "a46372ff45bc5524",
 			"url": "/images/art/a46372ff45bc5524.jpg"
 		}
 	],
-	"currentArtImageId": "a46372ff45bc5524",
+	"currentArtImageId": "blue-sky",
 	"backgroundImages": [
 		{
 			"id": "",

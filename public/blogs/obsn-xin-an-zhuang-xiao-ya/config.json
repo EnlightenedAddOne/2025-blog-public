@@ -1,8 +1,12 @@
 {
 	"title": "【新】安装小雅Alist",
-	"tags": ["obsidian"],
+	"tags": [
+		"安装小雅",
+		"Alist",
+		"树莓派"
+	],
 	"date": "2026-02-06T00:38",
 	"summary": "使用一键安装脚本",
 	"hidden": false,
-	"category": "技术知识库/树莓派"
+	"category": "树莓派"
 }

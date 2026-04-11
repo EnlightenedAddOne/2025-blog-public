@@ -1,8 +1,12 @@
 {
 	"title": "第七章：查找 (Search)",
-	"tags": ["obsidian"],
+	"tags": [
+		"第七章",
+		"查找",
+		"Search"
+	],
 	"date": "2026-02-07T01:34",
-	"summary": "1. 线性结构查找",
+	"summary": "对应视频：",
 	"hidden": false,
-	"category": "学业与考试/考研数据结构"
+	"category": "考研数据结构"
 }

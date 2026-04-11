@@ -1,8 +1,12 @@
 {
 	"title": "系统烧录",
-	"tags": ["obsidian"],
+	"tags": [
+		"系统烧录",
+		"查找树莓派",
+		"IP"
+	],
 	"date": "2026-02-06T00:38",
-	"summary": "1.使用官方镜像烧录工具",
+	"summary": "1",
 	"hidden": false,
-	"category": "技术知识库/树莓派"
+	"category": "树莓派"
 }

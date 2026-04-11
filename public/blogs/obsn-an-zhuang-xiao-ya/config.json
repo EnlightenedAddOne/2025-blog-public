@@ -1,8 +1,12 @@
 {
 	"title": "安装小雅Alist",
-	"tags": ["obsidian"],
+	"tags": [
+		"安装小雅",
+		"Alist",
+		"配置小雅"
+	],
 	"date": "2026-02-06T00:38",
-	"summary": "注意：安装小雅Alist之前需要先安装Alist。",
+	"summary": "注意：安装小雅Alist之前需要先安装Alist",
 	"hidden": false,
-	"category": "技术知识库/树莓派"
+	"category": "树莓派"
 }
