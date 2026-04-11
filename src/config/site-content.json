@@ -52,14 +52,14 @@
 		{
 			"id": "juejin",
 			"type": "juejin",
-			"value": "https://juejin.cn/user/2427311675422382",
+			"value": "https://juejin.cn/user/63140858963499",
 			"label": "稀土掘金",
 			"order": 2
 		},
 		{
 			"id": "email",
 			"type": "email",
-			"value": "yysuni1001@gmail.com",
+			"value": "addone1219@gmail.com",
 			"label": "",
 			"order": 1
 		}
