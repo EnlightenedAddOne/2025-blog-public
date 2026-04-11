@@ -77,7 +77,7 @@
 		"year": 2024,
 		"description": "适配洛阳理工学院的电量预警系统，监控宿舍电量，并发送邮件提醒",
 		"image": "https://github.com/EnlightenedAddOne.png",
-		"url": "https://dorm-electricity.vercel.app",
+		"url": "https://dorm-electricity.pages.dev/",
 		"tags": [
 			"Python",
 			"Tools",
