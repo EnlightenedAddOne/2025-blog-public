@@ -1,7 +1,7 @@
 # 实训报告—LLM Agentic RAG 个性化推荐开发演练 
 
 **编制：** __________________________________________
-**链接：** [https://www.addone.me/](https://www.addone.me/) 
+**链接：** [实训报告—LLM Agentic RAG 个性化推荐开发演练 ](https://www.addone.me/blog/6-23) 
 
 ---
 
