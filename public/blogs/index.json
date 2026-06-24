@@ -1,5 +1,19 @@
 [
   {
+    "slug": "6-24",
+    "title": "树莓派 + 旧手机搭建《碧蓝航线》全自动挂机系统",
+    "tags": [
+      "docker",
+      "自动化",
+      "树莓派"
+    ],
+    "date": "2026-06-24T15:00",
+    "summary": "",
+    "cover": "/blogs/6-24/46bd969dc3fd12bf.png",
+    "hidden": false,
+    "category": "树莓派"
+  },
+  {
     "slug": "6-23",
     "title": "实训报告—LLM Agentic RAG 个性化推荐开发演练 ",
     "tags": [],
