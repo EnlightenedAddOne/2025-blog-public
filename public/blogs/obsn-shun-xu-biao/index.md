@@ -35,7 +35,7 @@ void InitList(SqList &L)
 
 $MaxSize*sizeof(ElemType)$
 
-> [!info] 静态分配特点
+> 静态分配特点
 >
 > - 使用"静态数组"实现
 > - 大小一旦确定就无法改变
@@ -76,7 +76,7 @@ void IncreaseSize(SeqList &L, int len)
 }
 ```
 
-> [!tip] 内存管理函数
+> 内存管理函数
 >
 > - `malloc`：动态申请一整片连续的内存空间
 > - `free`：释放内存空间
@@ -87,7 +87,7 @@ void IncreaseSize(SeqList &L, int len)
 >
 > C++ 可以使用 `new`，`delete` 关键字。
 
-> [!info] 动态分配特点
+> 动态分配特点
 >
 > - 使用"动态数组"实现
 > - `L.data = (ElemType *) malloc(sizeof(ElemType) * InitSize)`
@@ -137,7 +137,7 @@ bool ListInsert(SqList &L, int i, int e)
 
 插入位置之后的元素都要后移。
 
-> [!note] 时间复杂度分析
+> 时间复杂度分析
 >
 > - 最好时间复杂度：$O(1)$
 > - 最坏时间复杂度：$O(n)$
@@ -166,13 +166,13 @@ bool ListDelete(SqList &L, int i, int &e)
 
 删除位置之后的元素都要前移。
 
-> [!note] 时间复杂度分析
+> 时间复杂度分析
 >
 > - 最好时间复杂度：$O(1)$
 > - 最坏时间复杂度：$O(n)$
 > - 平均时间复杂度：$O(n)$
 
-> [!important] 代码要点
+> 代码要点
 >
 > - 代码中注意位序 $i$ 与数组下标的区别
 > - 算法要有健壮性，注意判断 $i$ 的合法性
@@ -194,7 +194,7 @@ int GetElem(SqList L, int i)
 
 ```
 
-> [!note] 时间复杂度
+> 时间复杂度
 >
 > - 时间复杂度：$O(1)$
 
@@ -214,7 +214,7 @@ int LocateElem(SqList L, int e)
 }
 ```
 
-> [!note] 时间复杂度分析
+> 时间复杂度分析
 >
 > - 最好时间复杂度：$O(1)$
 > - 最坏时间复杂度：$O(n)$

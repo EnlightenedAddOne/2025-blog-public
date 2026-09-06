@@ -46,7 +46,7 @@ typedef struct LNode LNode;
 LNode *p = (LNode *) malloc(sizeof LNode);
 ```
 
-> [!tip] 高级写法
+> 高级写法
 >
 > ```cpp
 > typedef struct LNode
@@ -97,7 +97,7 @@ bool Empty(LinkList L)
 }
 ```
 
-> [!important] 写代码更麻烦
+> 写代码更麻烦
 >
 > - 对第一个数据结点和后续数据结点的处理需要用不同的代码逻辑
 > - 对空表和非空表的处理需要用不同的代码逻辑

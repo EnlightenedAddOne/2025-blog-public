@@ -75,7 +75,7 @@
 | PROXY_CONCURRENT_DIAL | ❌ | `1` | 反代并发拨号数（默认 1） |
 
 > 我这次踩的第一个坑：变量名用错了
-> 我当时误以为「进入管理页的密码」变量名叫 `UUID`，于是只配置了 `UUID=addone`。但官方**管理后台的登录密码变量名是 `ADMIN`**，`UUID` 只是可选变量，且值必须是 UUIDv4 格式（如 `90cd4a77-141a-43c9-991b-08263cfe9c10`），不能随便填 `addone` 这种字符串。
+> 我当时误以为「进入管理页的密码」变量名叫 `UUID`，于是只配置了 `UUID=mypassword`。但官方**管理后台的登录密码变量名是 `ADMIN`**，`UUID` 只是可选变量，且值必须是 UUIDv4 格式（如 `90cd4a77-141a-43c9-991b-08263cfe9c10`），不能随便填 `mypassword` 这种字符串。
 >
 > **正确做法**：至少配置 `ADMIN`（后台密码）；如需固定节点 UUID 再额外配 `UUID`（UUIDv4 格式）。
 
@@ -96,8 +96,8 @@
 
 进入 Pages 项目 → **自定义域** → **设置自定义域**：
 
-- 填入你的次级域名，例如 `qifei.addone.dpdns.org`。
-- ⚠️ **不要使用根域名**（例如分配的是 `addone.dpdns.org`，就填 `qifei.addone.dpdns.org`）。
+- 填入你的次级域名，例如 `sub.example.dpdns.org`。
+- ⚠️ **不要使用根域名**（例如分配的是 `example.dpdns.org`，就填 `sub.example.dpdns.org`）。
 
 ### 2. 在 DNS 服务商添加 CNAME（指向 edgetunnel.pages.dev）
 
@@ -105,12 +105,12 @@
 
 | 类型 | 名称 | 内容 | 代理状态 |
 | --- | --- | --- | --- |
-| CNAME | `qifei.addone.dpdns.org` | `edgetunnel.pages.dev` | ✅ 已代理（小黄云点亮） |
+| CNAME | `sub.example.dpdns.org` | `edgetunnel.pages.dev` | ✅ 已代理（小黄云点亮） |
 
 ![02-CF-DNS-小黄云配置](/blogs/edgetunnel-cf/02-CF-DNS-dns-proxy-config.png)
 
 > 我这次踩的第二个坑：CNAME 指错了
-> 我当时填的是自己 Pages 项目生成的 `addone-qifei.pages.dev`，而官方要求统一指向 `edgetunnel.pages.dev`。虽然也能通，但应按官方规范填写。
+> 我当时填的是自己 Pages 项目生成的 `your-project.pages.dev`，而官方要求统一指向 `edgetunnel.pages.dev`。虽然也能通，但应按官方规范填写。
 >
 > **关键**：无论如何，**小黄云必须点亮（代理状态 = 已代理）**。小黄云是灰的，流量就不经过 CF 边缘，直接解析真实 IP，往往不可达 → 立刻 522。
 
@@ -135,7 +135,7 @@ https://你的域名/admin
 
 ### 1. 现象
 
-部署后访问 `https://qifei.addone.dpdns.org`，返回 Cloudflare 522 错误页：
+部署后访问 `https://sub.example.dpdns.org`，返回 Cloudflare 522 错误页：
 
 ![01-522错误首现](/blogs/edgetunnel-cf/01-error-522.png)
 
@@ -175,7 +175,7 @@ https://你的域名/admin
 
 ### 1. 现象
 
-访问根域名 `https://qifei.addone.dpdns.org`，出现 "Welcome to nginx!" 页面：
+访问根域名 `https://sub.example.dpdns.org`，出现 "Welcome to nginx!" 页面：
 
 ![04-Nginx伪装页](/blogs/edgetunnel-cf/04-nginx-page.png)
 
@@ -186,7 +186,7 @@ https://你的域名/admin
 - 而**真正的管理后台在 `/admin` 路径**。
 
 > 我这次踩的第三个坑：把入口当成了 /UUID
-> 我当时误以为入口是 `域名/<UUID>`，所以去访问 `qifei.addone.dpdns.org/addone`，结果自然还是 Nginx 伪装页（`/addone` 根本不是一个合法路径）。
+> 我当时误以为入口是 `域名/<UUID>`，所以去访问 `sub.example.dpdns.org/mypassword`，结果自然还是 Nginx 伪装页（`/mypassword` 根本不是一个合法路径）。
 >
 > **正确入口是 `域名/admin`**，登录密码是 `ADMIN` 变量的值。
 
@@ -198,15 +198,15 @@ https://你的域名/admin
 
 ---
 
-## 七、CF 接管 NS 与注册商修改（zaddone.qzz.io）
+## 七、CF 接管 NS 与注册商修改（zname.qzz.io）
 
 ### 1. 在 Cloudflare 添加第二个域
 
-为获得第二个反代域名，我又通过 **DigitalPlat FreeDomain** 注册了免费域名 `zaddone.qzz.io` 并加入 Cloudflare，结果提示「名称服务器无效」：
+为获得第二个反代域名，我又通过 **DigitalPlat FreeDomain** 注册了免费域名 `zname.qzz.io` 并加入 Cloudflare，结果提示「名称服务器无效」：
 
 ![07-CF-NS无效提示](/blogs/edgetunnel-cf/07-ns-invalid.png)
 
-三个域名里只有 `addone.dcdn.org` 的 NS 有效，`addone.me` 和 `zaddone.qzz.io` 均无效：
+三个域名里只有 `example.dcdn.org` 的 NS 有效，`example.me` 和 `zname.qzz.io` 均无效：
 
 ![08-三个域名NS状态](/blogs/edgetunnel-cf/08-three-domains-ns-status.png)
 
@@ -230,7 +230,7 @@ https://你的域名/admin
    ![11-注册商填CF-NS](/blogs/edgetunnel-cf/11-registrar-fill-cf-ns.png)
 
 > 我这次踩的第四个坑：域名拼写错位
-> 我把 `zaddone.qzz.io`（带 z）的 NS 误填到了 `addone.qzz.io`（漏了 z）的位置，导致 NS 永远无效。**修改 NS 前务必反复核对域名拼写完全一致。**
+> 我把 `zname.qzz.io`（带 z）的 NS 误填到了 `name.qzz.io`（漏了 z）的位置，导致 NS 永远无效。**修改 NS 前务必反复核对域名拼写完全一致。**
 
 > 生效延迟
 > 全球 DNS 缓存刷新需要时间，通常 **15–30 分钟**。改完后回 CF 域名页点 **检查名称服务器（Check nameservers）** 强制 CF 立刻检测。
@@ -249,7 +249,7 @@ CF 检测到 NS 已指向自己后，会进入接管前的最后一步：
 2. **建议全部删除**：这些记录对节点无用，留着可能和节点路由冲突。
 3. 逐条删除，清空全部 8 条 A/AAAA 记录。
 4. 点页面底部 **继续前往激活**，完成域名接管。
-5. 之后在 Pages 后台绑定 `zaddone.qzz.io` 自定义域时，CF 会自动生成指向 Pages 的 CNAME，无需手写。
+5. 之后在 Pages 后台绑定 `zname.qzz.io` 自定义域时，CF 会自动生成指向 Pages 的 CNAME，无需手写。
 
 ---
 
@@ -302,7 +302,7 @@ edgetunnel 支持通过 URL 路径动态指定底层代理：
 | 6 | 访问根域名是 Nginx 页 | 这是防探测伪装 | 后台入口在 `/admin` |
 | 7 | 把 /UUID 当入口 | 仍显示 Nginx 页 | 正确入口是 `/admin` |
 | 8 | CNAME 指错 | 行为异常 | 统一指向 `edgetunnel.pages.dev` |
-| 9 | 改完 NS 仍无效 | 域名拼写错位 | 核对 zaddone vs addone |
+| 9 | 改完 NS 仍无效 | 域名拼写错位 | 核对 zname vs name |
 | 10 | 改完 NS 等很久 | 全球 DNS 缓存 | 等 15–30 分钟，点"检查名称服务器" |
 | 11 | 接管页有 8 条 A/AAAA | 注册商默认停放记录 | 全部删除后"继续前往激活" |
 | 12 | 节点连不上 | ProxyIP 失效 | 订阅加 `?proxyip=新IP` |

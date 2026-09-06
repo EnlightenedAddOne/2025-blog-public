@@ -2,15 +2,13 @@
   "title": "校园网终极折腾指南",
   "tags": [
     "网络",
-    "OpenWrt",
+    "代理",
     "DNS",
-    "树莓派",
-    "Docker",
-    "教程",
-    "排错"
+    "OpenWrt",
+    "教程"
   ],
   "date": "2026-09-03T12:00",
   "summary": "彻底解决校园网（giWiFi/锐捷）多设备检测、DNS 劫持、广告与断线问题的完整指南，覆盖 OpenWrt 防检测、AdGuard Home 旁路 DNS、全自动无感重连。",
   "hidden": false,
-  "category": "网络"
+  "category": "网络与代理"
 }

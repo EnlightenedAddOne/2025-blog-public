@@ -4,44 +4,43 @@
     "title": "Edgetunnel CF Pages 全流程部署节点",
     "tags": [
       "网络",
+      "代理",
       "Cloudflare",
-      "教程",
-      "排错"
+      "教程"
     ],
     "date": "2026-09-03T12:00",
     "summary": "借助 Cloudflare Pages 与免费域名部署 cmliu/edgetunnel 节点的完整实操，覆盖 Fork 仓库、环境变量、KV 绑定、自定义域解析与 522 排查。",
     "hidden": false,
-    "category": "服务器部署"
+    "category": "网络与代理"
   },
   {
     "slug": "campus-network",
     "title": "校园网终极折腾指南",
     "tags": [
       "网络",
-      "OpenWrt",
+      "代理",
       "DNS",
-      "树莓派",
-      "Docker",
-      "教程",
-      "排错"
+      "OpenWrt",
+      "教程"
     ],
     "date": "2026-09-03T12:00",
     "summary": "彻底解决校园网（giWiFi/锐捷）多设备检测、DNS 劫持、广告与断线问题的完整指南，覆盖 OpenWrt 防检测、AdGuard Home 旁路 DNS、全自动无感重连。",
     "hidden": false,
-    "category": "网络"
+    "category": "网络与代理"
   },
   {
     "slug": "ta410-cloud-terminal",
     "title": "青葡萄 TA410 云终端 · 刷机与网卡修复完整手册",
     "tags": [
       "硬件",
-      "排错",
-      "教程"
+      "RK3188",
+      "刷机",
+      "排错"
     ],
     "date": "2026-09-02T12:00",
     "summary": "青葡萄 TA410 云终端（RK3188）刷机与网卡修复完整手册，覆盖拆机识别芯片、TF 卡刷 Armbian、LAN8720A 网卡 MDIO 排查、内核编译与 NAND 迁移方案。",
     "hidden": false,
-    "category": "硬件"
+    "category": "树莓派与硬件"
   },
   {
     "slug": "quark-checkin",
@@ -55,841 +54,824 @@
     "date": "2026-08-08T12:00",
     "summary": "记录夸克网盘自动签到脚本的抓包攻坚过程（参数从 URL 迁移到请求头）与树莓派 DietPi 部署排障，含 Crontab 环境变量、DietPi Cron 服务默认关闭等坑点。",
     "hidden": false,
-    "category": "树莓派"
+    "category": "树莓派与硬件"
   },
   {
     "slug": "shenzhou-laptop-throttling",
     "title": "神舟笔记本 CPU 高温降频解决方案",
     "tags": [
       "硬件",
+      "笔记本",
       "排错"
     ],
     "date": "2026-07-21T12:00",
     "summary": "神舟笔记本重度负载下 CPU 高温降频（Thermal Throttling）与功耗墙冲突的排查记录，用 ThrottleStop 软件干预锁定功耗墙，并给出物理散热维护的根治建议。",
     "hidden": false,
-    "category": "硬件"
+    "category": "树莓派与硬件"
   },
   {
     "slug": "6-24",
     "title": "树莓派 + 旧手机搭建《碧蓝航线》全自动挂机系统",
     "tags": [
-      "docker",
-      "自动化",
-      "树莓派"
+      "树莓派",
+      "Docker",
+      "自动化"
     ],
     "date": "2026-06-24T15:00",
     "summary": "",
     "cover": "/blogs/6-24/46bd969dc3fd12bf.png",
     "hidden": false,
-    "category": "树莓派"
+    "category": "树莓派与硬件"
   },
   {
     "slug": "6-23",
     "title": "实训报告—LLM Agentic RAG 个性化推荐开发演练 ",
-    "tags": [],
+    "tags": [
+      "项目",
+      "LLM",
+      "RAG",
+      "实训"
+    ],
     "date": "2026-06-23T10:57",
     "summary": "ai agent课设实验报告",
     "cover": "/blogs/6-23/5f4ca554a2cd55f8.png",
     "hidden": false,
-    "category": "项目文档"
-  },
-  {
-    "slug": "obsn-gao-deng-shu-xue-fu-xi-bi-ji",
-    "title": "高等数学复习笔记",
-    "tags": [
-      "第0讲",
-      "常用不等式"
-    ],
-    "date": "2026-03-31T23:09",
-    "summary": "$(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$",
-    "hidden": false,
-    "category": "学业与考试"
+    "category": "项目实战"
   },
   {
     "slug": "obsn-yu-fang-xiao-yuan-wang-duo-she-bei-jian-ce-pei-zhi",
     "title": "OpenWrt 预防校园网多设备检测配置指南",
     "tags": [
-      "统一",
-      "TTL",
-      "基础且核心"
+      "网络",
+      "OpenWrt",
+      "教程"
     ],
     "date": "2026-03-22T15:46",
     "summary": "不同操作系统发出的数据包初始 TTL 不同，且每经过一个路由器 TTL 会减 1",
     "hidden": false,
-    "category": "通用"
+    "category": "网络与代理"
   },
   {
     "slug": "obsn-yu-shi-yong-zhi-nan",
     "title": "OpenCode 与 Oh My OpenCode 使用指南",
     "tags": [
-      "Oh",
-      "My",
-      "使用指南"
+      "OpenCode",
+      "工具",
+      "教程"
     ],
     "date": "2026-03-02T22:59",
     "summary": "OpenCode 是一个**开源的 AI 编程代理工具**，可以：",
     "hidden": false,
-    "category": "环境配置"
+    "category": "开发工具与环境"
   },
   {
     "slug": "obsn-hei-ke-feng-zhong-duan-liao-tian-shi",
     "title": "hacker-chat",
     "tags": [
-      "项目结构",
-      "🛠️",
-      "技术栈"
+      "项目",
+      "全栈",
+      "实战"
     ],
     "date": "2026-03-02T15:41",
     "summary": "一个基于 + + 的终端黑客风聊天室",
     "hidden": false,
-    "category": "项目文档"
+    "category": "项目实战"
   },
   {
     "slug": "obsn-yu-yan-kua-ping-tai-rong-qi-jian-kong-mian-ban",
     "title": "🌐 MINI PORTAINER GLOBAL 跨端容器监控面板",
     "tags": [
-      "MINI",
-      "GLOBAL",
-      "项目简介"
+      "项目",
+      "Docker",
+      "监控"
     ],
     "date": "2026-03-01T19:52",
     "summary": "MINI PORTAINER GLOBAL 是一套基于 Go 语言原生 Docker SDK 和 V…",
     "hidden": false,
-    "category": "项目文档"
+    "category": "项目实战"
   },
   {
     "slug": "obsn-qian-ru-shi-yuan-cheng-kai-fa-huan-jing-da-jian-zhi-nan",
     "title": "VS Code 嵌入式 Linux 远程开发指南 (SFTP + Makefile 方案)",
     "tags": [
-      "VS",
-      "Code",
-      "嵌入式"
+      "VS Code",
+      "嵌入式",
+      "远程开发",
+      "教程"
     ],
     "date": "2026-02-19T12:24",
     "summary": "适用硬件：STM32MP157 开发板 (FSMP1A) 或其他 Linux 开发板",
     "hidden": false,
-    "category": "期末复习-嵌入式"
+    "category": "开发工具与环境"
   },
   {
     "slug": "obsn-lian-jie-wen-ti-jie-jue",
     "title": "GitHub 连接问题汇总",
     "tags": [
       "GitHub",
-      "连接问题汇总",
-      "常见错误信息"
+      "网络",
+      "排错"
     ],
     "date": "2026-02-14T13:29",
     "summary": "本文档记录 GitHub Push/Pull 失败时的常见错误及解决方案",
     "hidden": false,
-    "category": "环境配置"
+    "category": "开发工具与环境"
   },
   {
     "slug": "obsn-wang-dao-shu-ju-jie-gou",
     "title": "王道考研 数据结构",
     "tags": [
-      "王道考研",
       "数据结构",
-      "绪论"
+      "考研",
+      "基础"
     ],
     "date": "2026-02-07T02:42",
     "summary": "数据",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-chuan",
     "title": "串",
     "tags": [
-      "定义",
-      "相关概念",
-      "空串"
+      "数据结构",
+      "考研",
+      "串与数组"
     ],
     "date": "2026-02-07T02:39",
     "summary": "串，即字符串（String）是由零个或者多个字符组成的有序序列",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-dui-lie",
     "title": "队列",
     "tags": [
-      "队列",
-      "定义",
-      "define"
+      "数据结构",
+      "考研",
+      "栈与队列"
     ],
     "date": "2026-02-07T02:39",
     "summary": "用顺序存储方式实现的队列",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-dui-pai-xu",
     "title": "堆排序",
     "tags": [
-      "堆排序",
-      "考研数据结构"
+      "数据结构",
+      "考研",
+      "排序"
     ],
     "date": "2026-02-07T02:39",
     "summary": "堆排序",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-er-cha-shu",
     "title": "二叉树",
     "tags": [
-      "二叉树",
-      "五种基本形态",
-      "VS"
+      "数据结构",
+      "考研",
+      "树"
     ],
     "date": "2026-02-07T02:39",
     "summary": "二叉树是 $n（n \\geq 0）$ 个结点的有限集合",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-er-cha-shu-de-bian-li",
     "title": "二叉树的遍历",
     "tags": [
-      "二叉树的遍历",
-      "先序遍历",
-      "中序遍历"
+      "数据结构",
+      "考研",
+      "树"
     ],
     "date": "2026-02-07T02:39",
     "summary": "按照某条搜索路径访问树中的每个结点，树的每个结点均被访问一次，而且只访问一次",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-er-cha-shu-de-cun-chu",
     "title": "二叉树的存储结构",
     "tags": [
-      "考研数据结构"
+      "数据结构",
+      "考研",
+      "树"
     ],
     "date": "2026-02-07T02:39",
     "summary": "用一组连续的存储单元依次从上而下、从左至右存储完全二叉树上的结点元素",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-er-cha-shu-de-ying-yong",
     "title": "二叉树的应用",
     "tags": [
-      "二叉树的应用",
-      "二叉排序树",
-      "查找"
+      "数据结构",
+      "考研",
+      "树"
     ],
     "date": "2026-02-07T02:39",
     "summary": "BST，也称二叉查找树",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-gui-bing-pai-xu",
     "title": "归并排序",
     "tags": [
-      "归并排序",
-      "考研数据结构"
+      "数据结构",
+      "考研",
+      "排序"
     ],
     "date": "2026-02-07T02:39",
     "summary": "归并排序",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-ji-shu-pai-xu",
     "title": "基数排序",
     "tags": [
-      "基数排序",
-      "考研数据结构"
+      "数据结构",
+      "考研",
+      "排序"
     ],
     "date": "2026-02-07T02:39",
     "summary": "基数排序",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-jian-dan-xuan-ze-pai-xu",
     "title": "简单选择排序",
     "tags": [
-      "简单选择排序",
-      "考研数据结构"
+      "数据结构",
+      "考研",
+      "排序"
     ],
     "date": "2026-02-07T02:39",
     "summary": "简单选择排序",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-ju-zhen",
     "title": "矩阵的压缩存储",
     "tags": [
-      "一维数组",
-      "二维数组",
-      "对称矩阵"
+      "数据结构",
+      "考研",
+      "串与数组"
     ],
     "date": "2026-02-07T02:39",
     "summary": "个数组元素大小相同，且物理上连续存放",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-kuai-su-pai-xu",
     "title": "快速排序",
     "tags": [
-      "快速排序",
-      "考研数据结构"
+      "数据结构",
+      "考研",
+      "排序"
     ],
     "date": "2026-02-07T02:39",
     "summary": "快速排序",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-mao-pao-pai-xu",
     "title": "冒泡排序",
     "tags": [
-      "冒泡排序",
-      "考研数据结构"
+      "数据结构",
+      "考研",
+      "排序"
     ],
     "date": "2026-02-07T02:39",
     "summary": "冒泡排序",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-shu-de-bian-li",
     "title": "树与森林",
     "tags": [
-      "树与森林",
-      "树的遍历",
-      "先根遍历"
+      "数据结构",
+      "考研",
+      "树"
     ],
     "date": "2026-02-07T02:39",
     "summary": "树转二叉树：每个结点左指针指向它的第一个孩子结点，右指针指向它在树中相邻兄弟结点",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-shu-de-cun-chu",
     "title": "树的存储结构",
     "tags": [
-      "树的存储结构",
-      "双亲表示法",
-      "define"
+      "数据结构",
+      "考研",
+      "树"
     ],
     "date": "2026-02-07T02:39",
     "summary": "采用一组连续的存储空间来存储每个结点，同时在每个结点中增设一个伪指针，指示双亲结点在数组的位置",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-shu-de-ying-yong",
     "title": "树的应用",
     "tags": [
-      "树的应用",
-      "并查集",
-      "define"
+      "数据结构",
+      "考研",
+      "树"
     ],
     "date": "2026-02-07T02:39",
     "summary": "一种简单的集合表示",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-shu-yu-er-cha-shu",
     "title": "树与二叉树",
     "tags": [
-      "树与二叉树",
-      "树的基本概念",
-      "基本术语"
+      "数据结构",
+      "考研",
+      "树"
     ],
     "date": "2026-02-07T02:39",
     "summary": "树是 $n（n \\geq 0）$ 个结点的有限集合，$n=0$ 时，称为空树",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-wai-bu-pai-xu",
     "title": "外部排序",
     "tags": [
-      "外部排序",
-      "失败树",
-      "置换"
+      "数据结构",
+      "考研",
+      "排序"
     ],
     "date": "2026-02-07T02:39",
     "summary": "外部排序",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-xi-er-pai-xu",
     "title": "希尔排序",
     "tags": [
-      "希尔排序",
-      "考研数据结构"
+      "数据结构",
+      "考研",
+      "排序"
     ],
     "date": "2026-02-07T02:39",
     "summary": "希尔排序",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-zhan",
     "title": "栈",
     "tags": [
-      "顺序栈",
-      "定义",
-      "define"
+      "数据结构",
+      "考研",
+      "栈与队列"
     ],
     "date": "2026-02-07T02:39",
     "summary": "用顺序存储方式实现的栈",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-zhan-de-ying-yong",
     "title": "栈的应用",
     "tags": [
-      "栈的应用",
-      "括号匹配",
-      "表达式求值"
+      "数据结构",
+      "考研",
+      "栈与队列"
     ],
     "date": "2026-02-07T02:39",
     "summary": "最后出现的左括号最先被匹配（后进先出，LIFO）",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-zhan-he-dui-lie",
     "title": "栈和队列",
     "tags": [
-      "栈和队列",
-      "定义",
-      "基本操作"
+      "数据结构",
+      "考研",
+      "栈与队列"
     ],
     "date": "2026-02-07T02:39",
     "summary": "三要素：",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-zhe-ban-cha-ru-pai-xu",
     "title": "折半插入排序",
     "tags": [
-      "折半插入排序",
-      "考研数据结构"
+      "数据结构",
+      "考研",
+      "排序"
     ],
     "date": "2026-02-07T02:39",
     "summary": "折半插入排序",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-zhi-jie-cha-ru-pai-xu",
     "title": "直接插入排序",
     "tags": [
-      "直接插入排序",
-      "考研数据结构"
+      "数据结构",
+      "考研",
+      "排序"
     ],
     "date": "2026-02-07T02:39",
     "summary": "直接插入排序",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-pai-xu",
     "title": "排序",
     "tags": [
-      "排序",
-      "基本概念",
-      "内部排序算法"
+      "数据结构",
+      "考研",
+      "排序"
     ],
     "date": "2026-02-07T02:38",
     "summary": "排序定义",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-shuang-lian-biao",
     "title": "双链表",
     "tags": [
-      "双链表",
-      "初始化",
-      "插入"
+      "数据结构",
+      "考研",
+      "线性表"
     ],
     "date": "2026-02-07T02:38",
     "summary": "双链表不可随机存取，按位查找、按值查找都只能用遍历的方式实现",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-dan-lian-biao",
     "title": "单链表",
     "tags": [
-      "单链表",
-      "关键词",
-      "定义单链表"
+      "数据结构",
+      "考研",
+      "线性表"
     ],
     "date": "2026-02-07T02:36",
     "summary": "关键字：数据类型重命名",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-cha-zhao",
     "title": "查找",
     "tags": [
-      "查找",
-      "基本概念",
-      "顺序查找"
+      "数据结构",
+      "考研",
+      "查找"
     ],
     "date": "2026-02-07T02:27",
     "summary": "查找",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-fen-kuai-cha-zhao",
     "title": "分块查找",
     "tags": [
-      "分块查找",
-      "考研数据结构"
+      "数据结构",
+      "考研",
+      "查找"
     ],
     "date": "2026-02-07T02:27",
     "summary": "分块查找",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-san-lie-biao",
     "title": "散列表",
     "tags": [
-      "散列表",
-      "基本概念",
-      "散列函数"
+      "数据结构",
+      "考研",
+      "查找"
     ],
     "date": "2026-02-07T02:27",
     "summary": "散列表",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-shu",
     "title": "B+ 树",
     "tags": [
-      "B+",
-      "考研数据结构"
+      "数据结构",
+      "考研",
+      "树"
     ],
     "date": "2026-02-07T02:27",
     "summary": "B+ 树",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-shu-7bb1b4",
     "title": "B 树",
     "tags": [
-      "插入",
-      "直接插入",
-      "向上分裂"
+      "数据结构",
+      "考研",
+      "树"
     ],
     "date": "2026-02-07T02:27",
     "summary": "直接删除",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-shun-xu-cha-zhao",
     "title": "顺序查找",
     "tags": [
-      "顺序查找",
-      "考研数据结构"
+      "数据结构",
+      "考研",
+      "查找"
     ],
     "date": "2026-02-07T02:27",
     "summary": "顺序查找",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-tu",
     "title": "图",
     "tags": [
-      "基本概念",
-      "图的基本概念",
-      "存储结构"
+      "数据结构",
+      "考研",
+      "图"
     ],
     "date": "2026-02-07T02:27",
     "summary": "图 $G$ 是由顶点集 $V$ 和边集 $E$ 组成，记为：",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-tu-de-bian-li",
     "title": "图的遍历",
     "tags": [
-      "图的遍历",
-      "广度优先搜索",
-      "深度优先搜索"
+      "数据结构",
+      "考研",
+      "图"
     ],
     "date": "2026-02-07T02:27",
     "summary": "有向图中没有上述两个结论，",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-tu-de-cao-zuo",
     "title": "图的基本操作",
     "tags": [
-      "图的基本操作",
-      "边是否存在",
-      "顶点的邻接边"
+      "数据结构",
+      "考研",
+      "图"
     ],
     "date": "2026-02-07T02:27",
     "summary": "图的基本操作",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-tu-de-cun-chu",
     "title": "图的存储结构",
     "tags": [
-      "图的存储结构",
-      "邻接矩阵法",
-      "邻接表法"
+      "数据结构",
+      "考研",
+      "图"
     ],
     "date": "2026-02-07T02:27",
     "summary": "$V=\\{A,B,C,D,E\\}$ 用一维数组存储",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-tu-de-gai-nian",
     "title": "图的基本概念",
     "tags": [
-      "图的基本概念",
-      "无向图",
-      "有向图"
+      "数据结构",
+      "考研",
+      "图"
     ],
     "date": "2026-02-07T02:27",
     "summary": "无向完全图",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-tu-de-ying-yong",
     "title": "图的应用",
     "tags": [
-      "图的应用",
-      "最小生成树",
-      "概念"
+      "数据结构",
+      "考研",
+      "图"
     ],
     "date": "2026-02-07T02:27",
     "summary": "所有边的情况皆不相同",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-xian-xing-biao",
     "title": "线性表",
     "tags": [
-      "线性表",
-      "定义",
-      "基本操作"
+      "数据结构",
+      "考研",
+      "线性表"
     ],
     "date": "2026-02-07T02:27",
     "summary": "线性表（Linear List）是具有相同数据类型的 $n$ $(n \\geq 0)$ 个数据元素的…",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-zhe-ban-cha-zhao",
     "title": "折半查找",
     "tags": [
-      "折半查找",
-      "考研数据结构"
+      "数据结构",
+      "考研",
+      "查找"
     ],
     "date": "2026-02-07T02:27",
     "summary": "折半查找",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-jing-tai-lian-biao",
     "title": "静态链表",
     "tags": [
-      "静态链表",
-      "定义",
-      "define"
+      "数据结构",
+      "考研",
+      "线性表"
     ],
     "date": "2026-02-07T02:26",
     "summary": "单链表：各个结点在内存中星罗棋布、散落天涯",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-shun-xu-biao",
     "title": "顺序表",
     "tags": [
-      "顺序表",
-      "静态分配",
-      "define"
+      "数据结构",
+      "考研",
+      "线性表"
     ],
     "date": "2026-02-07T02:26",
     "summary": "顺序表：用顺序存储方式实现的线性表",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-xun-huan-lian-biao",
     "title": "循环链表",
     "tags": [
-      "循环链表",
-      "循环单链表",
-      "定义"
+      "数据结构",
+      "考研",
+      "线性表"
     ],
     "date": "2026-02-07T02:26",
     "summary": "单链表：表尾结点的 指针指向",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-chuan-a651d8",
     "title": "第四章：串 (String)",
     "tags": [
-      "第四章",
-      "String",
-      "串的基本概念"
+      "数据结构",
+      "考研",
+      "串与数组"
     ],
     "date": "2026-02-07T01:43",
     "summary": "对应视频：",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-tu-55f2b9",
     "title": "第六章：图 (Graph)",
     "tags": [
-      "第六章",
-      "Graph",
-      "图的基本概念"
+      "数据结构",
+      "考研",
+      "图"
     ],
     "date": "2026-02-07T01:41",
     "summary": "对应视频：",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-shu-yu-er-cha-shu-7c3058",
     "title": "第五章：树与二叉树 (Tree & Binary Tree)",
     "tags": [
-      "第五章",
-      "树与二叉树",
-      "Tree"
+      "数据结构",
+      "考研",
+      "树"
     ],
     "date": "2026-02-07T01:39",
     "summary": "对应视频：、",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-cha-zhao-40539b",
     "title": "第七章：查找 (Search)",
     "tags": [
-      "第七章",
-      "查找",
-      "Search"
+      "数据结构",
+      "考研",
+      "查找"
     ],
     "date": "2026-02-07T01:34",
     "summary": "对应视频：",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-pai-xu-228f33",
     "title": "第八章：排序 (Sort)",
     "tags": [
-      "第八章",
-      "排序",
-      "Sort"
+      "数据结构",
+      "考研",
+      "排序"
     ],
     "date": "2026-02-07T01:30",
     "summary": "对应视频：",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-xian-xing-biao-406259",
     "title": "第二章：线性表",
     "tags": [
-      "第二章",
-      "线性表",
-      "线性表的定义"
+      "数据结构",
+      "考研",
+      "线性表"
     ],
     "date": "2026-02-07T00:40",
     "summary": "具有相同数据类型的 $n$ ($n \\ge 0$) 个数据元素的有限序列",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-zhan-dui-lie-he-shu-zu",
     "title": "第三章：栈、队列和数组",
     "tags": [
-      "第三章",
-      "队列和数组",
-      "Stack"
+      "数据结构",
+      "考研",
+      "栈与队列"
     ],
     "date": "2026-02-07T00:40",
     "summary": "对应视频：、",
     "hidden": false,
-    "category": "考研数据结构"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-xu-lun",
     "title": "第一章：绪论",
     "tags": [
-      "第一章",
-      "绪论",
-      "算法评价"
+      "数据结构",
+      "考研",
+      "基础"
     ],
     "date": "2026-02-06T21:34",
     "summary": "**数据结构三要素**：",
     "hidden": false,
-    "category": "考研数据结构"
-  },
-  {
-    "slug": "obsn-can-kao-da-an-yu-jie-xi",
-    "title": "参考答案与解析",
-    "tags": [
-      "选择题",
-      "填空题",
-      "判断题"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "1",
-    "hidden": false,
-    "category": "期末复习-嵌入式"
-  },
-  {
-    "slug": "obsn-cheng-xu-she-ji-qi-mo-kao-shi-shi-ti-juan",
-    "title": "《Java程序设计》期末考试试题卷（A）",
-    "tags": [
-      "程序设计",
-      "Java",
-      "单项选择题"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "1",
-    "hidden": false,
-    "category": "期末复习-Java"
+    "category": "数据结构"
   },
   {
     "slug": "obsn-di-er-jie-shu-lie-ji-xian",
     "title": "数列极限02",
     "tags": [
-      "数列极限02",
-      "数列极限",
-      "子数列"
+      "考研数学",
+      "考研"
     ],
     "date": "2026-02-06T00:56",
     "summary": "从数列 $\\{a_n\\}$: $a_1$, $a_2$,",
@@ -900,8 +882,8 @@
     "slug": "obsn-di-san-jie-yi-yuan-han-shu-wei-fen-xue",
     "title": "第三节一元函数微分学",
     "tags": [
-      "导数",
-      "增量的广义化"
+      "考研数学",
+      "考研"
     ],
     "date": "2026-02-06T00:56",
     "summary": "设 $y = f(x)$ 定义在区间 $I$ 上，让自变量在 $x = x_0$ 处加一个增量 $\\…",
@@ -912,8 +894,8 @@
     "slug": "obsn-di-si-jie-yi-yuan-han-shu-wei-fen-xue-de-ying-yong",
     "title": "一、基本求导公式",
     "tags": [
-      "基本求导公式",
-      "考研数学"
+      "考研数学",
+      "考研"
     ],
     "date": "2026-02-06T00:56",
     "summary": "$(x^{\\alpha})' = \\alpha x^{\\alpha-1} (\\alpha \\text…",
@@ -924,8 +906,8 @@
     "slug": "obsn-di-yi-jie-han-shu-yu-ji-xian",
     "title": "第一节函数与极限",
     "tags": [
-      "映射与函数",
-      "极限"
+      "考研数学",
+      "考研"
     ],
     "date": "2026-02-06T00:56",
     "summary": "1",
@@ -933,607 +915,193 @@
     "category": "考研数学"
   },
   {
-    "slug": "obsn-jian-da-ti",
-    "title": "简答题",
-    "tags": [
-      "简答题",
-      "及其特点"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "答：**",
-    "hidden": false,
-    "category": "期末复习-嵌入式"
-  },
-  {
-    "slug": "obsn-ke-ben-cheng-xu-ti",
-    "title": "案例2-1 库房出入货物程序设计",
-    "tags": [
-      "案例2-1",
-      "案例",
-      "案例介绍"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "现要对华为和小米两种手机产品进行入库，本案例要求编写一个模拟商品入库的程序，可以在控制台输入入库商品…",
-    "hidden": false,
-    "category": "学业与考试"
-  },
-  {
-    "slug": "obsn-ma-yuan-qi-mo-kao-shi-gong-lve",
-    "title": "马原期末考试攻略",
-    "tags": [
-      "第一章",
-      "**第一节",
-      "物质&意识"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "1、物质决定意识，要坚持一切从实际出发，实事求是",
-    "hidden": false,
-    "category": "学业与考试"
-  },
-  {
-    "slug": "obsn-qi-mo-fu-xi-ti",
-    "title": "Java期末复习题",
-    "tags": [
-      "期末复习题",
-      "Java",
-      "第1章"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "1",
-    "hidden": false,
-    "category": "期末复习-Java"
-  },
-  {
-    "slug": "obsn-qi-mo-kao-shi-fu-xi-bi-ji",
-    "title": "Python 期末考试复习笔记",
-    "tags": [
-      "Python",
-      "第一部分",
-      "核心重点突破"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "**break 与 continue 的区别**",
-    "hidden": false,
-    "category": "学业与考试"
-  },
-  {
-    "slug": "obsn-qian-ru-shi-xi-tong-qi-mo-fu-xi-bi-ji",
-    "title": "嵌入式系统期末复习笔记",
-    "tags": [
-      "嵌入式",
-      "#ARM",
-      "#考试复习"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "**嵌入性**：嵌入到对象体系中",
-    "hidden": false,
-    "category": "期末复习-嵌入式"
-  },
-  {
-    "slug": "obsn-qian-ru-shi-xi-tong-qi-zhong-kao-shi-shi-ti",
-    "title": "嵌入式系统 期中考试试题",
-    "tags": [
-      "嵌入式系统",
-      "期中考试试题",
-      "洛阳理工学院"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "一、选择题 (每小题2分，共 10 分)**",
-    "hidden": false,
-    "category": "期末复习-嵌入式"
-  },
-  {
-    "slug": "obsn-ren-gong-zhi-neng-ji-shu-ti-ku",
-    "title": "人工智能技术-题库",
-    "tags": [
-      "人工智能技术",
-      "题库",
-      "AI"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "1、现代人工智能发展的三大要素是什么",
-    "hidden": false,
-    "category": "期末复习-人工智能"
-  },
-  {
-    "slug": "obsn-ren-gong-zhi-neng-ming-ci-gai-nian",
-    "title": "📘 **机器学习基础知识点总结（来自前面问答）**",
-    "tags": [
-      "来自前面问答",
-      "**",
-      "常见激活函数"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "公式：$\\sigma(x)=\\frac{1}{1+e^{-x}}$",
-    "hidden": false,
-    "category": "期末复习-人工智能"
-  },
-  {
-    "slug": "obsn-ren-gong-zhi-neng-qi-mo-fu-xi-bi-ji",
-    "title": "🎓 人工智能期末复习笔记",
-    "tags": [
-      "基础概念篇",
-      "AI",
-      "是什么？"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "**考点结论**：**算力、算法、数据**",
-    "hidden": false,
-    "category": "期末复习-人工智能"
-  },
-  {
     "slug": "obsn-shen-du-xue-xi-quan-jia-tong",
     "title": "🧠 深度学习全家桶 · 知识图谱",
     "tags": [
-      "知识图谱",
-      "全局总图"
+      "AI",
+      "深度学习",
+      "知识图谱"
     ],
     "date": "2026-02-06T00:56",
     "summary": "🧠 深度学习全家桶 · 知识图谱",
     "hidden": false,
-    "category": "考研数据结构"
-  },
-  {
-    "slug": "obsn-shen-du-xue-xi-quan-jia-tong-kao-dian-qiang-hua-ban",
-    "title": "🧠 深度学习全家桶 · 考点强化版",
-    "tags": [
-      "考点强化版",
-      "🗺️",
-      "🏗️"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "1",
-    "hidden": false,
-    "category": "期末复习-人工智能"
-  },
-  {
-    "slug": "obsn-shen-du-xue-xi-quan-jia-tong-xiang-jie-ban",
-    "title": "🧠 深度学习全家桶 · 详解版",
-    "tags": [
-      "详解版",
-      "🏗️",
-      "前馈网络"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "**感知机 (Perceptron)**: 最简单的神经网络单元，模拟神经元，由输入、权重、偏置和激…",
-    "hidden": false,
-    "category": "期末复习-人工智能"
-  },
-  {
-    "slug": "obsn-shu-ju-ku",
-    "title": "数据库",
-    "tags": [
-      "数据库",
-      "第一章",
-      "概述"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "1",
-    "hidden": false,
-    "category": "学业与考试"
-  },
-  {
-    "slug": "obsn-wang-an-lun-shu-ti-da-an-can-kao",
-    "title": "网安论述题答案参考",
-    "tags": [
-      "学业与考试"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "1",
-    "hidden": false,
-    "category": "学业与考试"
-  },
-  {
-    "slug": "obsn-wu-lian-wang-shi-bie-ji-shu-qi-mo-su-cheng-fu-xi-bi-ji",
-    "title": "《物联网识别技术》期末速成复习笔记",
-    "tags": [
-      "🛡️",
-      "考前必读",
-      "试卷结构分析"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "**物联网 (IoT)**：The Internet of Things，即“物与物相连的互联网”",
-    "hidden": false,
-    "category": "期末复习-嵌入式"
-  },
-  {
-    "slug": "obsn-wu-lian-wang-shi-bie-ji-shu-qi-mo-zhong-ji-fu-xi-zhi-nan",
-    "title": "📖 《物联网识别技术》期末终极复习指南",
-    "tags": [
-      "第一部分",
-      "必考计算公式",
-      "熟背"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "**避坑指南 (必看)**：",
-    "hidden": false,
-    "category": "期末复习-嵌入式"
-  },
-  {
-    "slug": "obsn-wu-lian-wang-tong-xin-qi-mo-fu-xi-zhi-nan",
-    "title": "物联网通信期末复习指南",
-    "tags": [
-      "概率与矩阵",
-      "信息论基础",
-      "信号类型"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "**泊松分布**：常用于描述一定时间内 **随机事件发生次数** 的概率分布",
-    "hidden": false,
-    "category": "期末复习-嵌入式"
-  },
-  {
-    "slug": "obsn-xin-xi-an-quan-qi-mo-fu-xi-bi-ji",
-    "title": "🛡️ 信息安全期末复习全景笔记 (地毯式梳理版)",
-    "tags": [
-      "🛡️",
-      "地毯式梳理版",
-      "第一板块"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "⭐ **Kerchhoff 假设 (柯克霍夫原则)**：密码系统的安全性仅依赖于**密钥**，而不是…",
-    "hidden": false,
-    "category": "学业与考试"
-  },
-  {
-    "slug": "obsn-xue-nian-qian-ru-shi-xi-tong-qi-mo-shi-juan",
-    "title": "洛阳理工学院 2024/2025 学年嵌入式系统期末试卷 (A)",
-    "tags": [
-      "洛阳理工学院",
-      "选择题",
-      "每小题"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "1",
-    "hidden": false,
-    "category": "期末复习-嵌入式"
-  },
-  {
-    "slug": "obsn-xue-sheng-xue-ji-guan-li-xi-tong",
-    "title": "要求概述",
-    "tags": [
-      "要求概述",
-      "开发环境",
-      "亮点"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "系统以菜单的的方式工作",
-    "hidden": false,
-    "category": "项目文档"
-  },
-  {
-    "slug": "obsn-zhi-ling-ji-qi-han-yi",
-    "title": "指令及其含义",
-    "tags": [
-      "指令及其含义",
-      "期末复习",
-      "嵌入式"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "这是最基础且核心的部分，重点掌握 , , , ,",
-    "hidden": false,
-    "category": "期末复习-嵌入式"
-  },
-  {
-    "slug": "obsn-zhong-dian-xi-ti-ji",
-    "title": "Python快速编程入门(第三版) - 重点习题集",
-    "tags": [
-      "第三版",
-      "重点习题集",
-      "快速编程入门"
-    ],
-    "date": "2026-02-06T00:56",
-    "summary": "1",
-    "hidden": false,
-    "category": "学业与考试"
+    "category": "AI 与提示词"
   },
   {
     "slug": "obsn-an-zhuang-xiao-ya",
     "title": "安装小雅Alist",
     "tags": [
-      "安装小雅",
-      "Alist",
-      "配置小雅"
+      "树莓派",
+      "网盘",
+      "教程"
     ],
     "date": "2026-02-06T00:38",
     "summary": "注意：安装小雅Alist之前需要先安装Alist",
     "hidden": false,
-    "category": "树莓派"
+    "category": "树莓派与硬件"
   },
   {
     "slug": "obsn-bu-shu-xiang-mu-dao-fu-wu-qi",
     "title": "docker部署项目到服务器",
     "tags": [
-      "docker",
-      "本地",
-      "结构搭建"
+      "部署",
+      "Docker"
     ],
     "date": "2026-02-06T00:38",
     "summary": "项目简介：",
     "hidden": false,
-    "category": "服务器部署"
-  },
-  {
-    "slug": "obsn-bu-shu-xiang-mu-dao-fu-wu-qi-a5b5b5",
-    "title": "docker部署项目到服务器",
-    "tags": [
-      "docker",
-      "本地",
-      "结构搭建"
-    ],
-    "date": "2026-02-06T00:38",
-    "summary": "项目简介：",
-    "hidden": false,
-    "category": "服务器部署"
+    "category": "服务器与部署"
   },
   {
     "slug": "obsn-cha-jian-an-zhuang-zhi-nan",
     "title": "OpenCode 插件安装指南",
     "tags": [
-      "插件安装指南",
-      "环境要求",
-      "安装"
+      "OpenCode",
+      "插件",
+      "教程"
     ],
     "date": "2026-02-06T00:38",
     "summary": "OpenCode 是一个 AI 助手插件，可以直接在 Obsidian 的侧边栏中嵌入使用，为你的笔…",
     "hidden": false,
-    "category": "环境配置"
-  },
-  {
-    "slug": "obsn-chao-ji-jiao-cheng-ban",
-    "title": "什么是 Markdown?",
-    "tags": [
-      "什么是",
-      "为什么要使用",
-      "相关软件推荐"
-    ],
-    "date": "2026-02-06T00:38",
-    "summary": "1",
-    "hidden": false,
-    "category": "通用"
+    "category": "开发工具与环境"
   },
   {
     "slug": "obsn-da-jian-ge-ren-bo-ke-wang-zhan",
     "title": "安装WordPress",
     "tags": [
-      "安装",
-      "安装博客主题",
-      "博客主题推荐"
+      "服务器",
+      "WordPress",
+      "博客"
     ],
     "date": "2026-02-06T00:38",
     "summary": "打卡宝塔-->软件商店-->一键部署-->WordPress",
     "hidden": false,
-    "category": "树莓派"
-  },
-  {
-    "slug": "obsn-fen-gong",
-    "title": "分工",
-    "tags": [
-      "分工",
-      "第一部分",
-      "硬件感知"
-    ],
-    "date": "2026-02-06T00:38",
-    "summary": "涉及文件： tah",
-    "hidden": false,
-    "category": "项目文档"
-  },
-  {
-    "slug": "obsn-fu-wu-qi-bu-shu",
-    "title": "一、前期准备",
-    "tags": [
-      "前期准备",
-      "后端配置",
-      "前端配置"
-    ],
-    "date": "2026-02-06T00:38",
-    "summary": "以腾讯云服务器为例",
-    "hidden": false,
-    "category": "项目文档"
+    "category": "服务器与部署"
   },
   {
     "slug": "obsn-fu-wu-qi-ge-ren-bo-ke-zhu-ti-mei-hua",
     "title": "ClawCloud服务器+WordPress个人博客+Argon主题美化",
     "tags": [
       "服务器",
-      "个人博客",
-      "主题美化"
+      "WordPress",
+      "博客"
     ],
     "date": "2026-02-06T00:38",
     "summary": "「ClawCloud Run」推出了注册 180 天以上的 GitHub 账号终身每月免费送$5 美…",
     "hidden": false,
-    "category": "服务器部署"
-  },
-  {
-    "slug": "obsn-hou-duan",
-    "title": "Java后端",
-    "tags": [
-      "Java后端",
-      "后端",
-      "Java"
-    ],
-    "date": "2026-02-06T00:38",
-    "summary": "开发工具建议使用IDEA专业版",
-    "hidden": false,
-    "category": "项目文档"
-  },
-  {
-    "slug": "obsn-jie-kou-diao-yong-shuo-ming",
-    "title": "接口调用说明",
-    "tags": [
-      "接口调用说明",
-      "登录",
-      "添加用户"
-    ],
-    "date": "2026-02-06T00:38",
-    "summary": "**POST /api/users/login**",
-    "hidden": false,
-    "category": "项目文档"
+    "category": "服务器与部署"
   },
   {
     "slug": "obsn-pao-tuan-zhi-ling",
     "title": "跑团指令",
     "tags": [
-      "跑团指令",
-      "AI提示词",
+      "AI",
       "提示词"
     ],
     "date": "2026-02-06T00:38",
     "summary": "期待你与我一起跑团，你来当dm，通过我的想象来推动故事的发展，我对你有以下几点要求：",
     "hidden": false,
-    "category": "AI提示词"
-  },
-  {
-    "slug": "obsn-qian-duan",
-    "title": "Vue前端",
-    "tags": [
-      "Vue前端",
-      "前端",
-      "Vue"
-    ],
-    "date": "2026-02-06T00:38",
-    "summary": "开发工具建议使用VsCode",
-    "hidden": false,
-    "category": "项目文档"
+    "category": "AI 与提示词"
   },
   {
     "slug": "obsn-shu-mei-pai-an-zhuang-bao-ta-mian-ban",
     "title": "树莓派安装宝塔面板",
     "tags": [
-      "登录宝塔",
-      "树莓派"
+      "树莓派",
+      "教程"
     ],
     "date": "2026-02-06T00:38",
     "summary": "注意：** 安装之前需保证系统纯净，并且不要进行换源",
     "hidden": false,
-    "category": "树莓派"
+    "category": "树莓派与硬件"
   },
   {
     "slug": "obsn-shu-mei-pai-wu-xian-shi-qi-jin-xing-lian-jie",
     "title": "系统烧录",
     "tags": [
-      "系统烧录",
-      "查找树莓派",
-      "IP"
+      "树莓派",
+      "教程"
     ],
     "date": "2026-02-06T00:38",
     "summary": "1",
     "hidden": false,
-    "category": "树莓派"
+    "category": "树莓派与硬件"
   },
   {
     "slug": "obsn-su-she-dian-liang-jian-kong-xi-tong-shuo-ming",
     "title": "宿舍电量监控系统说明",
     "tags": [
-      "手动获取教程",
-      "Cookie",
-      "电脑端"
+      "项目",
+      "监控",
+      "物联网"
     ],
     "date": "2026-02-06T00:38",
     "summary": "1",
     "hidden": false,
-    "category": "项目文档"
-  },
-  {
-    "slug": "obsn-xia-an-zhuang-bing-shi-yong-bian-xie-yu-yan-cheng-xu",
-    "title": "前言",
-    "tags": [
-      "前言",
-      "WSL",
-      "下载"
-    ],
-    "date": "2026-02-06T00:38",
-    "summary": "由于课程 Linux C需要，需要在 Linux 系统下运行C 语言程序，在老师的建议下使用wsl…",
-    "hidden": false,
-    "category": "环境配置"
+    "category": "项目实战"
   },
   {
     "slug": "obsn-xiang-mu-bu-shu",
     "title": "Fastapi项目部署",
     "tags": [
-      "项目部署",
-      "创建"
+      "部署",
+      "FastAPI",
+      "Docker"
     ],
     "date": "2026-02-06T00:38",
     "summary": "项目目录**",
     "hidden": false,
-    "category": "服务器部署"
-  },
-  {
-    "slug": "obsn-xiang-mu-bu-shu-d10757",
-    "title": "Fastapi项目部署",
-    "tags": [
-      "项目部署",
-      "创建"
-    ],
-    "date": "2026-02-06T00:38",
-    "summary": "项目目录**",
-    "hidden": false,
-    "category": "服务器部署"
-  },
-  {
-    "slug": "obsn-xin-an-zhuang-xiao-ya",
-    "title": "【新】安装小雅Alist",
-    "tags": [
-      "安装小雅",
-      "Alist",
-      "树莓派"
-    ],
-    "date": "2026-02-06T00:38",
-    "summary": "使用一键安装脚本",
-    "hidden": false,
-    "category": "树莓派"
+    "category": "服务器与部署"
   },
   {
     "slug": "obsn-xiu-xian-mo-ni",
     "title": "AI修仙模拟",
     "tags": [
-      "AI修仙模拟",
-      "修仙模拟",
-      "AI"
+      "AI",
+      "提示词"
     ],
     "date": "2026-02-06T00:38",
     "summary": "请你扮演修仙模拟器与我进行文字游戏，我的第一步指令是：“创建自定义角色”；",
     "hidden": false,
-    "category": "AI提示词"
+    "category": "AI 与提示词"
   },
   {
     "slug": "obsn-xue-sheng-guan-li-xi-tong-xiang-mu-shuo-ming-wen-dang",
     "title": "学生管理系统项目说明文档",
     "tags": [
-      "项目概述",
-      "功能模块",
-      "用户认证模块"
+      "项目",
+      "Java",
+      "Vue"
     ],
     "date": "2026-02-06T00:38",
     "summary": "项目名称 ：学生管理系统 开发语言 ：Java 项目类型 ：桌面应用程序 主要用途 ：用于管理学生信…",
     "hidden": false,
-    "category": "项目文档"
+    "category": "项目实战"
   },
   {
     "slug": "obsn-yun-xing-tiao-shi-pei-zhi",
     "title": "VsCode调试注意",
     "tags": [
-      "调试注意",
-      "VsCode",
-      "下载的插件"
+      "VS Code",
+      "调试",
+      "教程"
     ],
     "date": "2026-02-06T00:38",
     "summary": "要调试的代码路径不能有中文，否则会报错",
     "hidden": false,
-    "category": "环境配置"
+    "category": "开发工具与环境"
   },
   {
     "slug": "obsn-zhi-neng-jia-ju-wu-lian-wang-xi-tong-xiang-mu-shuo-ming-wen-dang",
     "title": "智能家居物联网系统 - 项目说明文档",
     "tags": [
-      "项目说明文档",
-      "项目概述",
-      "核心功能"
+      "项目",
+      "物联网",
+      "智能家居"
     ],
     "date": "2026-02-06T00:38",
     "summary": "本项目是一个基于**嵌入式Linux**和**MQTT协议**的智能家居物联网系统，实现了传感器数据…",
     "hidden": false,
-    "category": "期末复习-嵌入式"
+    "category": "项目实战"
   }
 ]

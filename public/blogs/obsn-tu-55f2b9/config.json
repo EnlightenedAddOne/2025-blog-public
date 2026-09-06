@@ -1,12 +1,12 @@
 {
-	"title": "第六章：图 (Graph)",
-	"tags": [
-		"第六章",
-		"Graph",
-		"图的基本概念"
-	],
-	"date": "2026-02-07T01:41",
-	"summary": "对应视频：",
-	"hidden": false,
-	"category": "考研数据结构"
+  "title": "第六章：图 (Graph)",
+  "tags": [
+    "数据结构",
+    "考研",
+    "图"
+  ],
+  "date": "2026-02-07T01:41",
+  "summary": "对应视频：",
+  "hidden": false,
+  "category": "数据结构"
 }

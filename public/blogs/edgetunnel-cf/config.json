@@ -2,12 +2,12 @@
   "title": "Edgetunnel CF Pages 全流程部署节点",
   "tags": [
     "网络",
+    "代理",
     "Cloudflare",
-    "教程",
-    "排错"
+    "教程"
   ],
   "date": "2026-09-03T12:00",
   "summary": "借助 Cloudflare Pages 与免费域名部署 cmliu/edgetunnel 节点的完整实操，覆盖 Fork 仓库、环境变量、KV 绑定、自定义域解析与 522 排查。",
   "hidden": false,
-  "category": "服务器部署"
+  "category": "网络与代理"
 }

@@ -1,11 +1,11 @@
 {
-	"title": "一、基本求导公式",
-	"tags": [
-		"基本求导公式",
-		"考研数学"
-	],
-	"date": "2026-02-06T00:56",
-	"summary": "$(x^{\\alpha})' = \\alpha x^{\\alpha-1} (\\alpha \\text…",
-	"hidden": false,
-	"category": "考研数学"
+  "title": "一、基本求导公式",
+  "tags": [
+    "考研数学",
+    "考研"
+  ],
+  "date": "2026-02-06T00:56",
+  "summary": "$(x^{\\alpha})' = \\alpha x^{\\alpha-1} (\\alpha \\text…",
+  "hidden": false,
+  "category": "考研数学"
 }

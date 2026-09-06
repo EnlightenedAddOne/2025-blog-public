@@ -1,12 +1,12 @@
 {
-	"title": "第四章：串 (String)",
-	"tags": [
-		"第四章",
-		"String",
-		"串的基本概念"
-	],
-	"date": "2026-02-07T01:43",
-	"summary": "对应视频：",
-	"hidden": false,
-	"category": "考研数据结构"
+  "title": "第四章：串 (String)",
+  "tags": [
+    "数据结构",
+    "考研",
+    "串与数组"
+  ],
+  "date": "2026-02-07T01:43",
+  "summary": "对应视频：",
+  "hidden": false,
+  "category": "数据结构"
 }

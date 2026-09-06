@@ -57,7 +57,7 @@ hacker-chat/
 
 ## 📡 消息流与协议架构
 
-> [!info] 消息流转机制 (Message Flow)
+> 消息流转机制 (Message Flow)
 >
 > 1. 客户端输入普通文本 → 发送 `CHAT` 消息。
 > 2. 客户端输入 `/xxx` → 拦截并发送 `COMMAND` 消息。
@@ -112,7 +112,7 @@ CREATE TABLE IF NOT EXISTS messages (
 
 ## ⚙️ 配置与运行
 
-> [!warning] 安全须知
+> 安全须知
 >
 > 仓库默认只提供 `internal/config/config.example.go.txt` 模板文件，真实配置请勿提交至 Git。
 
@@ -152,7 +152,7 @@ go run cmd/client/main.go -server=127.0.0.1:8080 -pass=thereisnospoon
 
 由于采用纯 Go 依赖，可以在任意系统上一键编译全平台 Payload。
 
-> [!tip] PowerShell 编译环境
+> PowerShell 编译环境
 >
 > 以下命令适用于 Windows PowerShell。编译完毕后记得使用 `$env:GOOS=""; $env:GOARCH=""` 恢复默认环境变量。
 
@@ -212,12 +212,12 @@ docker run -d --name matrix-hub -p 8080:8080 -v $(pwd)/data:/root/data hacker-ch
 
 ## ❓ 异常排查排错 (Troubleshooting)
 
-> [!bug] 服务端启动失败 (exit code 1)
+> 服务端启动失败 (exit code 1)
 >
 > - 检查监听端口 (`:8080` / `:8089`) 是否被其他进程占用。
 > - 检查程序运行路径是否有**写权限**（首次启动需创建 `matrix.db`）。
 
-> [!bug] 客户端无法连接 (Connection Refused)
+> 客户端无法连接 (Connection Refused)
 >
 > - 服务端进程是否彻底存活。
 > - 检查云服务器的**安全组/防火墙**是否已放行对应的 TCP 端口。

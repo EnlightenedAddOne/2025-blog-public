@@ -1,12 +1,12 @@
 {
-	"title": "OpenCode 与 Oh My OpenCode 使用指南",
-	"tags": [
-		"Oh",
-		"My",
-		"使用指南"
-	],
-	"date": "2026-03-02T22:59",
-	"summary": "OpenCode 是一个**开源的 AI 编程代理工具**，可以：",
-	"hidden": false,
-	"category": "环境配置"
+  "title": "OpenCode 与 Oh My OpenCode 使用指南",
+  "tags": [
+    "OpenCode",
+    "工具",
+    "教程"
+  ],
+  "date": "2026-03-02T22:59",
+  "summary": "OpenCode 是一个**开源的 AI 编程代理工具**，可以：",
+  "hidden": false,
+  "category": "开发工具与环境"
 }

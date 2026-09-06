@@ -87,7 +87,7 @@ $$\lim_{x \to 0} (1 + x)^{\frac{1}{x}} = e \quad \text{或} \quad \lim_{n \to \i
 
 $$\lim_{x \to 0} \frac{\sin x}{x} = 1$$
 
-> [!note] 组合公式
+> 组合公式
 > $$\lim_{x \to \infty} \left( 1 + \frac{k}{x} \right)^x = e^k$$
 > $$ \lim\_{x \to 0} \frac{a^x - 1}{x} = \ln a \quad (a>0)$$
 
@@ -214,7 +214,7 @@ $$x-1<[x]\le x$$
 
 ![|600](/blogs/obsn-di-yi-jie-han-shu-yu-ji-xian/Pasted image 20250715000702.png)
 
-重要不等式：[[第二节数列极限#(2) 利用重要不等式]]
+重要不等式：第二节数列极限
 
 ---
 

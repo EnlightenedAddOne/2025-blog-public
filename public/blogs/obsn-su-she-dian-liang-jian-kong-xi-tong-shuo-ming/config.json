@@ -1,12 +1,12 @@
 {
-	"title": "宿舍电量监控系统说明",
-	"tags": [
-		"手动获取教程",
-		"Cookie",
-		"电脑端"
-	],
-	"date": "2026-02-06T00:38",
-	"summary": "1",
-	"hidden": false,
-	"category": "项目文档"
+  "title": "宿舍电量监控系统说明",
+  "tags": [
+    "项目",
+    "监控",
+    "物联网"
+  ],
+  "date": "2026-02-06T00:38",
+  "summary": "1",
+  "hidden": false,
+  "category": "项目实战"
 }
