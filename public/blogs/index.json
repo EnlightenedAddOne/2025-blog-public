@@ -1,6 +1,6 @@
 [
   {
-    "slug": "obsn-edgetunnel-cf-pages-quan-liu-cheng-bu-shu-yu-522-pai-cha-shi-zhan",
+    "slug": "edgetunnel-cf",
     "title": "Edgetunnel CF Pages 全流程部署与 522 排查实战",
     "tags": [
       "网络",
@@ -14,7 +14,7 @@
     "category": "服务器部署"
   },
   {
-    "slug": "obsn-xiao-yuan-wang-zhong-ji-zhe-teng-zhi-nan",
+    "slug": "campus-network",
     "title": "校园网终极折腾指南",
     "tags": [
       "网络",
@@ -31,7 +31,7 @@
     "category": "网络"
   },
   {
-    "slug": "obsn-kua-ke-wang-pan-zi-dong-qian-dao-jiao-ben-bu-shu",
+    "slug": "quark-checkin",
     "title": "夸克网盘自动签到：抓包攻坚与树莓派部署",
     "tags": [
       "树莓派",

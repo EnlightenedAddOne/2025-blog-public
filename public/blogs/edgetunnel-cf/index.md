@@ -41,7 +41,7 @@
 > - 官方详细教程：<https://cmliussss.com/p/edt2/>
 > - 文字教程：[wandou.eu.org](https://wandou.eu.org/archives/410)、[fastly.blog.cmliussss.com edt2](https://fastly.blog.cmliussss.com/p/edt2/)
 >
->   ![00-教程封面](/blogs/obsn-edgetunnel-cf-pages-quan-liu-cheng-bu-shu-yu-522-pai-cha-shi-zhan/00-cover.jpg)
+>   ![00-教程封面](/blogs/edgetunnel-cf/00-cover.jpg)
 
 ---
 
@@ -107,7 +107,7 @@
 | --- | --- | --- | --- |
 | CNAME | `qifei.addone.dpdns.org` | `edgetunnel.pages.dev` | ✅ 已代理（小黄云点亮） |
 
-![02-CF-DNS-小黄云配置](/blogs/obsn-edgetunnel-cf-pages-quan-liu-cheng-bu-shu-yu-522-pai-cha-shi-zhan/02-CF-DNS-dns-proxy-config.png)
+![02-CF-DNS-小黄云配置](/blogs/edgetunnel-cf/02-CF-DNS-dns-proxy-config.png)
 
 > 我这次踩的第二个坑：CNAME 指错了
 > 我当时填的是自己 Pages 项目生成的 `addone-qifei.pages.dev`，而官方要求统一指向 `edgetunnel.pages.dev`。虽然也能通，但应按官方规范填写。
@@ -117,7 +117,7 @@
 > 证书生效
 > 添加自定义域后，CF 会下发 TLS 证书，需等待几分钟，状态变 **活跃（Active）** 才算生效。
 
-![03-Pages-自定义域-活跃](/blogs/obsn-edgetunnel-cf-pages-quan-liu-cheng-bu-shu-yu-522-pai-cha-shi-zhan/03-Pages-custom-domain-active.png)
+![03-Pages-自定义域-活跃](/blogs/edgetunnel-cf/03-Pages-custom-domain-active.png)
 
 ### 3. 访问后台
 
@@ -137,7 +137,7 @@ https://你的域名/admin
 
 部署后访问 `https://qifei.addone.dpdns.org`，返回 Cloudflare 522 错误页：
 
-![01-522错误首现](/blogs/obsn-edgetunnel-cf-pages-quan-liu-cheng-bu-shu-yu-522-pai-cha-shi-zhan/01-error-522.png)
+![01-522错误首现](/blogs/edgetunnel-cf/01-error-522.png)
 
 - **You（浏览器）**：Working ✅
 - **Tokyo（CF 边缘节点）**：Working ✅
@@ -177,7 +177,7 @@ https://你的域名/admin
 
 访问根域名 `https://qifei.addone.dpdns.org`，出现 "Welcome to nginx!" 页面：
 
-![04-Nginx伪装页](/blogs/obsn-edgetunnel-cf-pages-quan-liu-cheng-bu-shu-yu-522-pai-cha-shi-zhan/04-nginx-page.png)
+![04-Nginx伪装页](/blogs/edgetunnel-cf/04-nginx-page.png)
 
 ### 2. 这是「防探测伪装」，不是报错
 
@@ -194,7 +194,7 @@ https://你的域名/admin
 
 若访问 `/admin` 仍异常，通常是 `ADMIN` 变量或 `KV` 未真正生效 —— 执行一次「重试部署」即可（见上一节）。
 
-![06-加UUID后仍Nginx伪装页](/blogs/obsn-edgetunnel-cf-pages-quan-liu-cheng-bu-shu-yu-522-pai-cha-shi-zhan/06-still-nginx-page.png)
+![06-加UUID后仍Nginx伪装页](/blogs/edgetunnel-cf/06-still-nginx-page.png)
 
 ---
 
@@ -204,11 +204,11 @@ https://你的域名/admin
 
 为获得第二个反代域名，我又通过 **DigitalPlat FreeDomain** 注册了免费域名 `zaddone.qzz.io` 并加入 Cloudflare，结果提示「名称服务器无效」：
 
-![07-CF-NS无效提示](/blogs/obsn-edgetunnel-cf-pages-quan-liu-cheng-bu-shu-yu-522-pai-cha-shi-zhan/07-ns-invalid.png)
+![07-CF-NS无效提示](/blogs/edgetunnel-cf/07-ns-invalid.png)
 
 三个域名里只有 `addone.dcdn.org` 的 NS 有效，`addone.me` 和 `zaddone.qzz.io` 均无效：
 
-![08-三个域名NS状态](/blogs/obsn-edgetunnel-cf-pages-quan-liu-cheng-bu-shu-yu-522-pai-cha-shi-zhan/08-three-domains-ns-status.png)
+![08-三个域名NS状态](/blogs/edgetunnel-cf/08-three-domains-ns-status.png)
 
 ### 2. 在注册商（DigitalPlat）修改 NS
 
@@ -217,17 +217,17 @@ https://你的域名/admin
 
 1. 进入 DigitalPlat 域名管理后台：
 
-   ![09-DigitalPlat域名管理](/blogs/obsn-edgetunnel-cf-pages-quan-liu-cheng-bu-shu-yu-522-pai-cha-shi-zhan/09-domain-manage.png)
+   ![09-DigitalPlat域名管理](/blogs/edgetunnel-cf/09-domain-manage.png)
 
 2. CF 引导页给出需要填写的两条 NS：
 
-   ![10-CF-接管NS指引](/blogs/obsn-edgetunnel-cf-pages-quan-liu-cheng-bu-shu-yu-522-pai-cha-shi-zhan/10-takeover-ns-guide.png)
+   ![10-CF-接管NS指引](/blogs/edgetunnel-cf/10-takeover-ns-guide.png)
 
 3. 回到注册商「名称服务器」选项卡，将默认 NS 替换为 CF 分配的两条：
    - **NAME SERVER 1**：`trey.ns.cloudflare.com`
    - **NAME SERVER 2**：`savanna.ns.cloudflare.com`
 
-   ![11-注册商填CF-NS](/blogs/obsn-edgetunnel-cf-pages-quan-liu-cheng-bu-shu-yu-522-pai-cha-shi-zhan/11-registrar-fill-cf-ns.png)
+   ![11-注册商填CF-NS](/blogs/edgetunnel-cf/11-registrar-fill-cf-ns.png)
 
 > 我这次踩的第四个坑：域名拼写错位
 > 我把 `zaddone.qzz.io`（带 z）的 NS 误填到了 `addone.qzz.io`（漏了 z）的位置，导致 NS 永远无效。**修改 NS 前务必反复核对域名拼写完全一致。**
@@ -239,7 +239,7 @@ https://你的域名/admin
 
 CF 检测到 NS 已指向自己后，会进入接管前的最后一步：
 
-![12-Cloudflare接管页清理DNS](/blogs/obsn-edgetunnel-cf-pages-quan-liu-cheng-bu-shu-yu-522-pai-cha-shi-zhan/12-cleanup-dns.jpg)
+![12-Cloudflare接管页清理DNS](/blogs/edgetunnel-cf/12-cleanup-dns.jpg)
 
 ---
 

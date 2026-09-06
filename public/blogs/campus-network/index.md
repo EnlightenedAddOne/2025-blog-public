@@ -185,12 +185,12 @@ _配置完成后，局域网设备需断开 WiFi 重新连接，以获取新的 
 1. **打开认证页面**：在电脑浏览器中打开校园网认证页，输入账号密码，但**先不要点登录**。
 2. **启动开发者工具**：按 `F12`（或右键页面空白处选择"检查"），在弹出的面板中切换到 **网络（Network）** 标签页。
 3. **开启"保留日志"**：在网络面板的工具栏中勾选 **保留日志（Preserve log）**，并点一下"清除"按钮清空旧记录。这一步非常关键，否则登录跳转后请求记录会被清空。
-![file-20260906163753190](/blogs/obsn-xiao-yuan-wang-zhong-ji-zhe-teng-zhi-nan/file-20260906163753190.png)
+![file-20260906163753190](/blogs/campus-network/file-20260906163753190.png)
    
 4. **触发登录**：回到页面，点击"登录"按钮完成认证。
 5. **定位 POST 请求**：网络面板里会出现若干条新记录。寻找那条 **方法（Method）显示为 `POST`**、名称（Name）通常包含 `login`、`auth`、`portal` 或 `user` 的请求（giWiFi 通常是 `authLogin?...`，锐捷通常是 `eportal/...`）。点击它，右侧"载荷（Payload）"或"表单数据"里就能看到你刚才提交的账号密码——通常是加密后的乱码，这很正常。
 
-   ![抓包得到的 POST 请求列表](/blogs/obsn-xiao-yuan-wang-zhong-ji-zhe-teng-zhi-nan/devtools-network-post-row.png)
+   ![抓包得到的 POST 请求列表](/blogs/campus-network/devtools-network-post-row.png)
 
 6. **复制为 cURL**：右键点击这条 POST 请求，依次选择 **复制 → 复制为 cURL (bash)**。浏览器会把整条请求（含 URL、所有请求头、Cookie、表单数据）打包成一段可执行的 cURL 命令。
 
@@ -288,4 +288,4 @@ nslookup baidu.com 192.168.1.133
 
 - [OpenWrt 预防校园网多设备检测配置指南](/blog/obsn-yu-fang-xiao-yuan-wang-duo-she-bei-jian-ce-pei-zhi) — OpenWrt 侧防多设备检测的原始配置（TTL/NTP/UA2F/IPID）
 - 校园网 (giWiFi) 突破限制与全网络防劫持去广告 — 树莓派/DietPi 旁路部署的实战记录
-- [Edgetunnel CF Pages 全流程部署与 522 排查实战](/blog/obsn-edgetunnel-cf-pages-quan-liu-cheng-bu-shu-yu-522-pai-cha-shi-zhan) — 用于科学上网的 CF Pages 代理节点部署
+- [Edgetunnel CF Pages 全流程部署与 522 排查实战](/blog/edgetunnel-cf) — 用于科学上网的 CF Pages 代理节点部署

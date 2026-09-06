@@ -33,7 +33,7 @@
     - `x-u-kps-wg` 对应所需参数 **`kps`**
     - `x-u-sign-wg` 对应所需参数 **`sign`**
     - `x-u-vcode` 对应所需参数 **`vcode`**
-![file-20260808154626832](/blogs/obsn-kua-ke-wang-pan-zi-dong-qian-dao-jiao-ben-bu-shu/file-20260808154626832.png)
+![file-20260808154626832](/blogs/quark-checkin/file-20260808154626832.png)
 ### 3. 备用抓包方案（脚本注释提供，本次未测试）
 
 原脚本头部注释中提供了另一种获取参数的方法。本次实践虽然没有采用这种方式，但记录于此作为日后备用方案：
