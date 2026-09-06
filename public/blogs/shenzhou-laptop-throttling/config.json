@@ -1,0 +1,11 @@
+{
+  "title": "神舟笔记本 CPU 高温降频解决方案",
+  "tags": [
+    "硬件",
+    "排错"
+  ],
+  "date": "2026-07-21T12:00",
+  "summary": "神舟笔记本重度负载下 CPU 高温降频（Thermal Throttling）与功耗墙冲突的排查记录，用 ThrottleStop 软件干预锁定功耗墙，并给出物理散热维护的根治建议。",
+  "hidden": false,
+  "category": "硬件"
+}
