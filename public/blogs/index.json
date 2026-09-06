@@ -14,6 +14,37 @@
     "category": "服务器部署"
   },
   {
+    "slug": "obsn-xiao-yuan-wang-zhong-ji-zhe-teng-zhi-nan",
+    "title": "校园网终极折腾指南",
+    "tags": [
+      "网络",
+      "OpenWrt",
+      "DNS",
+      "树莓派",
+      "Docker",
+      "教程",
+      "排错"
+    ],
+    "date": "2026-09-03T12:00",
+    "summary": "彻底解决校园网（giWiFi/锐捷）多设备检测、DNS 劫持、广告与断线问题的完整指南，覆盖 OpenWrt 防检测、AdGuard Home 旁路 DNS、全自动无感重连。",
+    "hidden": false,
+    "category": "网络"
+  },
+  {
+    "slug": "obsn-kua-ke-wang-pan-zi-dong-qian-dao-jiao-ben-bu-shu",
+    "title": "夸克网盘自动签到：抓包攻坚与树莓派部署",
+    "tags": [
+      "树莓派",
+      "脚本",
+      "教程",
+      "排错"
+    ],
+    "date": "2026-08-08T12:00",
+    "summary": "记录夸克网盘自动签到脚本的抓包攻坚过程（参数从 URL 迁移到请求头）与树莓派 DietPi 部署排障，含 Crontab 环境变量、DietPi Cron 服务默认关闭等坑点。",
+    "hidden": false,
+    "category": "树莓派"
+  },
+  {
     "slug": "6-24",
     "title": "树莓派 + 旧手机搭建《碧蓝航线》全自动挂机系统",
     "tags": [
